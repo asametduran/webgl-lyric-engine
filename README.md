@@ -27,6 +27,7 @@ Deterministic FFmpeg 1080p 30fps Output
 | Folder | What it is |
 |---|---|
 | [`tralalaManifest/`](tralalaManifest) | manifest – *TRALALA*. The full pipeline: Whisper word timestamps -> curated `lyrics.json`, infinity-mirror neon club corridor, fuchsia-highlighted hook words, Playwright + FFmpeg capture (`capture.mjs`). |
+| [`knowMyNameTrueDamage/`](knowMyNameTrueDamage) | True Damage – *Know My Name* (Worlds 2026 anthem). A directed cyberpunk arena instead of a tunnel: a lava-veined obsidian **monolith** that ignites on the hook, a neon **Z-Drive prism** throwing refracted beams, kick-pumped speaker towers, ES/KR graffiti billboards and a holographic Summoner's-Cup-style trophy that lands on the monolith for the finale. Dynamic **director's cut** (15 hard cuts, kick punch and Dutch tilt, glitch on every cut). |
 | [`sawadikaLisa/`](sawadikaLisa) | LISA – *SaWaDiKa*. The original: a neon Bangkok street canyon with temple chedis and a wireframe tuk-tuk. Plays live in the browser (optional in-browser `.webm` recording with `R`); no capture script yet. |
 
 ## Getting started
@@ -51,6 +52,27 @@ Browser keys: `Space` pause · `←/→` ±5 s · `F` fullscreen · `,` `.` shif
 
 Lyric timings: `python tools/transcribe.py large-v3 en` (faster-whisper, CPU by default, `WHISPER_DEVICE=cuda` for GPU) then `node tools/make_lyrics.mjs`. The shipped `lyrics.json` is curated (`"curated": true`), so the script refuses to overwrite it without `--force`.
 
+### knowMyNameTrueDamage
+
+Same stack and keys as `tralalaManifest`. What is different:
+
+- **Architecture:** `scene.js` is driven by a cue sheet (`HEAT`, `RISE`, `HEAL`, `PRISM`: vein ignition, ember direction, floor healing, prism glow) and a `SHOTS` list in which every entry is a hard cut (`lerp` or `orbit` move, easing, kick `punch`). On every kick the camera gets a small FOV/dolly punch and a ~1° tilt; each cut triggers a short glitch burst. Post: bloom, kick-reactive chromatic aberration, grain, vignette. Everything is procedural (no models or textures), so the repo stays asset-free.
+- **Lyrics:** `lyrics.json` holds the official text on fixed Whisper timings (`python tools/make_lyrics_official.py` rebuilds it; never retime `t`/`end`).
+
+```bash
+cd knowMyNameTrueDamage
+npm install
+npx playwright install chromium
+
+# put your own audio next to package.json as audio.mp3, then:
+npm start                          # http://localhost:8080/  -> start button
+npm run still -- 33 74 212         # single lossless PNG frames -> tools/stills/ (look-dev)
+node capture.mjs --start 28 --end 34 --out test.mp4   # quick preview clip
+npm run capture                    # full render -> know-my-name-code-mv.mp4 (1920x1080, 30 fps, ~35 min)
+```
+
+Optional lyric timing: `python tools/transcribe.py large-v3 en` (faster-whisper) writes `words.json`.
+
 ### sawadikaLisa
 
 ```bash
@@ -65,6 +87,7 @@ See [`sawadikaLisa/README.md`](sawadikaLisa/README.md) for controls and URL opti
 
 ```
 tralalaManifest/   scene.js  typography.js  timing.js  analyzer.js  main.js  capture.mjs  serve.mjs  tools/
+knowMyNameTrueDamage/   scene.js (cue sheet + SHOTS)  typography.js  timing.js  analyzer.js  main.js  capture.mjs  serve.mjs  tools/
 sawadikaLisa/      scene.js  typography.js  timing.js  analyzer.js  main.js  lyrics.json
 ```
 

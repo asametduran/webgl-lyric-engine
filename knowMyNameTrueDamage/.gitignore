@@ -1,0 +1,7 @@
+node_modules/
+*.mp4
+words.json
+*.log
+# look-dev stills and raw YouTube description (full lyrics text) stay local
+tools/stills/
+tools/yt_desc*

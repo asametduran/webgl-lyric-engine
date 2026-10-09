@@ -1,0 +1,256 @@
+{
+ "_note": "Official lyrics on whisper timings; t/end are final.",
+ "offset": 0,
+ "skipped": [
+  "text source: official YouTube description (tools/yt_description.txt)",
+  "intro chants '(Now you know my name)' before the first verse: no usable timing",
+  "0-24 s whisper disclaimer noise and 254 s 'Thank you' dropped"
+ ],
+ "lines": [
+  {
+   "t": 30.0,
+   "end": 36.6,
+   "text": "Now you know my name\nFire in my veins"
+  },
+  {
+   "t": 37.14,
+   "end": 43.8,
+   "text": "Tried to count us out but we back in\nAlways gonna rise from the ashes"
+  },
+  {
+   "t": 44.72,
+   "end": 48.0,
+   "text": "Look, I'm one of a kind\n(Even if my whole body is torn apart)"
+  },
+  {
+   "t": 48.06,
+   "end": 50.8,
+   "text": "Revive (I rise again, revive)"
+  },
+  {
+   "t": 50.9,
+   "end": 53.1,
+   "text": "(How dare you look at me like that)\nThey want me"
+  },
+  {
+   "t": 53.14,
+   "end": 55.3,
+   "text": "(The calling toward me)\n(An echo that feels like it's about to burst)"
+  },
+  {
+   "t": 55.42,
+   "end": 56.9,
+   "text": "(You probably already know)"
+  },
+  {
+   "t": 57.0,
+   "end": 58.4,
+   "text": "All the way, all the way, all the way up"
+  },
+  {
+   "t": 58.48,
+   "end": 61.9,
+   "text": "Tell them I got the throne\nI arrive with a crown on my dome"
+  },
+  {
+   "t": 62.04,
+   "end": 65.6,
+   "text": "Way advanced, gotta pay my advance\nAnd I came with a sound of my own"
+  },
+  {
+   "t": 65.92,
+   "end": 69.2,
+   "text": "Uhh, I don't like the way you talking to me\nGotta rocket on me like I'm NASA, homie"
+  },
+  {
+   "t": 69.4,
+   "end": 72.6,
+   "text": "Hit the Z-Drive, time travel on 'em\nWhen I rewind, take it back, back, back"
+  },
+  {
+   "t": 72.72,
+   "end": 77.6,
+   "text": "Now you know my name\nFire in my veins"
+  },
+  {
+   "t": 78.94,
+   "end": 85.2,
+   "text": "Tried to count us out but we back in\nAlways gonna rise from the ashes"
+  },
+  {
+   "t": 85.78,
+   "end": 88.4,
+   "text": "Now you know my name"
+  },
+  {
+   "t": 89.4,
+   "end": 92.2,
+   "text": "That's just how I'm made"
+  },
+  {
+   "t": 92.64,
+   "end": 95.7,
+   "text": "Estamos en otro nivel, otra clase\n(We're on another level, another class)"
+  },
+  {
+   "t": 96.06,
+   "end": 99.2,
+   "text": "Lo que buscamos siempre se nos hace\n(What we want, we always get)"
+  },
+  {
+   "t": 100.54,
+   "end": 104.2,
+   "text": "Yeah, who want the smoke?\nWho want the fade?"
+  },
+  {
+   "t": 104.3,
+   "end": 108.2,
+   "text": "(Whoever catches my eye)\n(It'll soon be their final choice)"
+  },
+  {
+   "t": 108.24,
+   "end": 110.4,
+   "text": "Killin' like domino\n(Like they're just toys)"
+  },
+  {
+   "t": 110.5,
+   "end": 112.5,
+   "text": "Shake the world\n(If it's no fun)"
+  },
+  {
+   "t": 112.6,
+   "end": 114.4,
+   "text": "Hit the clutch, then I swerve"
+  },
+  {
+   "t": 114.6,
+   "end": 118.0,
+   "text": "I don't like the way you're talking to me\nGotta rocket on me like I'm NASA, homie"
+  },
+  {
+   "t": 118.1,
+   "end": 122.2,
+   "text": "Hit the Z-Drive, time travel on 'em\nWhen I rewind, they gon' back up off me"
+  },
+  {
+   "t": 123.0,
+   "end": 126.8,
+   "text": "Run it up, I'm never backing down\nHit the opposition like a plasma round"
+  },
+  {
+   "t": 126.9,
+   "end": 128.5,
+   "text": "Lot of Lost Children on my side of town"
+  },
+  {
+   "t": 128.58,
+   "end": 132.5,
+   "text": "We're never giving up,\ntenemos la cabeza en alto"
+  },
+  {
+   "t": 132.76,
+   "end": 138.6,
+   "text": "Yeah, this is how we do it, aquí arrasando\nSi quieres, le metemos, ahí nos vemos"
+  },
+  {
+   "t": 138.72,
+   "end": 141.8,
+   "text": "'Cause in this situation, no perdemos"
+  },
+  {
+   "t": 142.1,
+   "end": 145.9,
+   "text": "We just gettin' started\nMakin' a mark, yeah"
+  },
+  {
+   "t": 146.02,
+   "end": 151.0,
+   "text": "You talkin' reckless\nYou ain't ready for the carnage"
+  },
+  {
+   "t": 151.42,
+   "end": 154.0,
+   "text": "Eyes on the target\nThrough all the hardships"
+  },
+  {
+   "t": 154.1,
+   "end": 157.8,
+   "text": "Buckle up, we 'bout ride"
+  },
+  {
+   "t": 161.64,
+   "end": 164.4,
+   "text": "Now you know my name"
+  },
+  {
+   "t": 165.38,
+   "end": 168.2,
+   "text": "Fire in my veins"
+  },
+  {
+   "t": 168.98,
+   "end": 175.8,
+   "text": "Tried to count us out but we back in\nAlways gonna rise from the ashes"
+  },
+  {
+   "t": 176.04,
+   "end": 178.6,
+   "text": "Now you know my name"
+  },
+  {
+   "t": 179.66,
+   "end": 182.4,
+   "text": "That's just how I'm made"
+  },
+  {
+   "t": 182.98,
+   "end": 186.3,
+   "text": "Así es como los líderes nacen\n(That's how legends are born)"
+  },
+  {
+   "t": 186.62,
+   "end": 190.0,
+   "text": "Nadie nos toca, pase lo que pase\n(Whatever happens, no one can touch us)"
+  },
+  {
+   "t": 191.46,
+   "end": 197.9,
+   "text": "Crowds erupt and paint the sky\nCross my heart and hope to die"
+  },
+  {
+   "t": 198.44,
+   "end": 201.6,
+   "text": "From the dust we were built to arise"
+  },
+  {
+   "t": 201.94,
+   "end": 206.2,
+   "text": "This the moment that legends collide"
+  },
+  {
+   "t": 206.5,
+   "end": 208.4,
+   "text": "Crowds erupt and paint the sky"
+  },
+  {
+   "t": 208.54,
+   "end": 211.6,
+   "text": "Cross my heart and hope to die"
+  },
+  {
+   "t": 211.8,
+   "end": 215.6,
+   "text": "From the dust we were built to arise"
+  },
+  {
+   "t": 215.92,
+   "end": 221.0,
+   "text": "This the moment that legends collide"
+  },
+  {
+   "t": 235.38,
+   "end": 238.6,
+   "text": "Now you know my…"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "know-my-name-true-damage-lyrics-mv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "True Damage - Know My Name (Worlds 2026) fan-made code lyrics video (Three.js + canvas typography)",
+  "scripts": {
+    "start": "node serve.mjs 8080",
+    "capture": "node capture.mjs",
+    "still": "node tools/still.mjs"
+  },
+  "dependencies": { "playwright": "^1.49.0" }
+}
