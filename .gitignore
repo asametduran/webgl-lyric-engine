@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# rendered videos (large)
+*.mp4
+*.mov
+*.avi
+*.webm
+
+# copyrighted audio
+*.mp3
+*.wav
+
+# secrets / credentials
+client_secret*.json
+token.json
+.env
+.env.*
+
+# logs and OS / tool noise
+*.log
+.DS_Store
+Thumbs.db
+.ruff_cache/
+__pycache__/
+
+# generated working data (re-created by tools/transcribe.py)
+words.json

@@ -1,0 +1,11 @@
+Manifest - TRALALA, lyrics video where the entire visual is code: no footage, no editor. A Three.js infinity-mirror club corridor in deep purple, electric cyan and neon fuchsia, with calm kinetic typography (Montserrat Bold) timed to the vocal phrases. Fully deterministic: the same song time always renders the same frame, and the lights only breathe softly with the 125 BPM kick (no flashing, no camera shake).
+
+TECHNICAL DETAILS
+• Rendering: Three.js (WebGL) + GLSL shaders + Canvas 2D typography, bloom post-processing
+• Audio analysis in the browser: tempo/beat grid (125 BPM), kick/bass envelopes drive the light pulse and camera speed
+• Lyric timing: word-level timestamps from the audio (faster-whisper), grouped into vocal phrase blocks, official lyrics text applied on top
+• Capture: Playwright renders every frame losslessly (PNG), FFmpeg encodes 1920x1080 / 30 fps H.264 + AAC
+
+Fan-made, non-commercial tribute. Music and lyrics © manifest and their label/publishers. Not affiliated with or endorsed by manifest or their team. Original official video: https://www.youtube.com/watch?v=0rW7Fbm4S7g
+
+#manifest #TRALALA #lyrics #threejs #creativecoding

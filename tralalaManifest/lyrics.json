@@ -1,0 +1,362 @@
+{
+ "_note": "Official lyrics text (curated) on whisper-derived timings. Do not retime: t/end are final; use , . / in the browser for a global offset.",
+ "offset": 0,
+ "source": "timings: faster-whisper word timestamps; text: official lyrics",
+ "lines": [
+  {
+   "t": 1.06,
+   "end": 3.75,
+   "text": "Can't get your eyes off my,\num, tra-la-la",
+   "block": "p1"
+  },
+  {
+   "t": 4.86,
+   "end": 7.55,
+   "text": "Look like an angel,\nGod bless, mashallah, mm-mm",
+   "block": "p2"
+  },
+  {
+   "t": 8.48,
+   "end": 11.53,
+   "text": "Move to the beat,\nit goes dum-da-ra-ra",
+   "block": "p3"
+  },
+  {
+   "t": 12.6,
+   "end": 15.91,
+   "text": "Can't get your eyes off my\nCan't get your eyes off my",
+   "block": "p4"
+  },
+  {
+   "t": 15.46,
+   "end": 19.49,
+   "text": "Didn't mean to ask for\nattention when I came by",
+   "block": "p5"
+  },
+  {
+   "t": 19.22,
+   "end": 21.47,
+   "text": "In the same location\non the same night",
+   "block": "p6"
+  },
+  {
+   "t": 21.06,
+   "end": 24.11,
+   "text": "Build up that tension, oh,\nday by day, oh",
+   "block": "p7"
+  },
+  {
+   "t": 24.12,
+   "end": 26.23,
+   "text": "I know, you want\nwhat you can't get",
+   "block": "p8"
+  },
+  {
+   "t": 25.78,
+   "end": 28.57,
+   "text": "That's the law of attraction\nYou're not getting that satisfaction",
+   "block": "p9"
+  },
+  {
+   "t": 28.12,
+   "end": 34.61,
+   "text": "I'll be driving you crazy, oh, play by play, oh\nYou can't help but notice me (Uh)",
+   "block": "p10"
+  },
+  {
+   "t": 35.52,
+   "end": 38.53,
+   "text": "I can't help but notice you\n(You; Da-da-da-da-da)",
+   "block": "p11"
+  },
+  {
+   "t": 39.38,
+   "end": 42.41,
+   "text": "You can't look away from me\n(Mm, ayy)",
+   "block": "p12"
+  },
+  {
+   "t": 43.36,
+   "end": 47.03,
+   "text": "Feel your eyes all over you",
+   "block": "p13"
+  },
+  {
+   "t": 46.58,
+   "end": 50.13,
+   "text": "Can't get your eyes off my,\num, tra-la-la",
+   "block": "p14"
+  },
+  {
+   "t": 50.76,
+   "end": 53.61,
+   "text": "Look like an angel,\nGod bless, mashallah, mm-mm",
+   "block": "p15"
+  },
+  {
+   "t": 54.5,
+   "end": 57.63,
+   "text": "Move to the beat,\nit goes dum-da-ra-ra",
+   "block": "p16"
+  },
+  {
+   "t": 58.7,
+   "end": 60.69,
+   "text": "Can't get your eyes off my",
+   "block": "p17"
+  },
+  {
+   "t": 60.24,
+   "end": 63.13,
+   "text": "Can't get your eyes off my\n(Can't get your eyes off my)",
+   "block": "p18"
+  },
+  {
+   "t": 62.68,
+   "end": 65.63,
+   "text": "I do it on purpose\nNow you look a little bit nervous (Yeah)",
+   "block": "p19"
+  },
+  {
+   "t": 65.18,
+   "end": 68.43,
+   "text": "You're watching every movement",
+   "block": "p20"
+  },
+  {
+   "t": 67.98,
+   "end": 70.23,
+   "text": "To the right, to the left,\nto the right,",
+   "block": "p21"
+  },
+  {
+   "t": 69.78,
+   "end": 70.83,
+   "text": "to the right, right",
+   "block": "p22"
+  },
+  {
+   "t": 70.38,
+   "end": 73.25,
+   "text": "You're tryna calm your lady down\nI'm messing with you on the daily now",
+   "block": "p23"
+  },
+  {
+   "t": 72.8,
+   "end": 76.29,
+   "text": "All it takes is one look",
+   "block": "p24"
+  },
+  {
+   "t": 75.84,
+   "end": 78.17,
+   "text": "Start a fight with your girl\neverytime I'm around, 'round",
+   "block": "p25"
+  },
+  {
+   "t": 77.9,
+   "end": 80.67,
+   "text": "You can't help but notice me\n(Mm, uh)",
+   "block": "p26"
+  },
+  {
+   "t": 81.96,
+   "end": 84.57,
+   "text": "I can't help but notice you\n(Da-da-da-da)",
+   "block": "p27"
+  },
+  {
+   "t": 85.96,
+   "end": 88.11,
+   "text": "Building up that fantasy (Uh)",
+   "block": "p28"
+  },
+  {
+   "t": 89.52,
+   "end": 92.99,
+   "text": "Feel your eyes all over you",
+   "block": "p29"
+  },
+  {
+   "t": 93.18,
+   "end": 98.55,
+   "text": "Can't get your eyes off my, um, tra-la-la\nLook like an angel,",
+   "block": "p30"
+  },
+  {
+   "t": 98.18,
+   "end": 99.75,
+   "text": "God bless, mashallah, mm-mm",
+   "block": "p31"
+  },
+  {
+   "t": 100.86,
+   "end": 103.65,
+   "text": "Move to the beat,\nit goes dum-da-ra-ra",
+   "block": "p32"
+  },
+  {
+   "t": 104.68,
+   "end": 108.43,
+   "text": "Can't get your eyes off my\nCan't get your eyes off my\n(Can't get your eyes off my, tra-la-la)",
+   "block": "p33"
+  },
+  {
+   "t": 110.48,
+   "end": 112.61,
+   "text": "My friends know your friends",
+   "block": "p34"
+  },
+  {
+   "t": 112.16,
+   "end": 114.41,
+   "text": "And we got a lot of intel\non the weekends",
+   "block": "p35"
+  },
+  {
+   "t": 113.96,
+   "end": 116.41,
+   "text": "Where you going out?\nI'm dressed up and I'll be there",
+   "block": "p36"
+  },
+  {
+   "t": 115.96,
+   "end": 118.23,
+   "text": "Whoops, it must be a coincidence",
+   "block": "p37"
+  },
+  {
+   "t": 117.78,
+   "end": 120.25,
+   "text": "And then your friends see my friends",
+   "block": "p38"
+  },
+  {
+   "t": 119.8,
+   "end": 122.19,
+   "text": "Now we're pulling up,\nsame club, same wristband",
+   "block": "p39"
+  },
+  {
+   "t": 121.74,
+   "end": 124.31,
+   "text": "It's so obvious that you wanted this",
+   "block": "p40"
+  },
+  {
+   "t": 123.86,
+   "end": 125.93,
+   "text": "And I love messing with your confidence",
+   "block": "p41"
+  },
+  {
+   "t": 126.06,
+   "end": 128.69,
+   "text": "You can't help but notice me\n(Mm, uh)",
+   "block": "p42"
+  },
+  {
+   "t": 129.8,
+   "end": 132.55,
+   "text": "I can't help but notice you\n(Da-da-da-da)",
+   "block": "p43"
+  },
+  {
+   "t": 133.68,
+   "end": 136.41,
+   "text": "You can't look away from me\n(Uh)",
+   "block": "p44"
+  },
+  {
+   "t": 137.56,
+   "end": 140.97,
+   "text": "Feel your eyes all over you",
+   "block": "p45"
+  },
+  {
+   "t": 141.24,
+   "end": 146.57,
+   "text": "Can't get your eyes off my, um, tra-la-la\nLook like an angel,",
+   "block": "p46"
+  },
+  {
+   "t": 146.18,
+   "end": 147.73,
+   "text": "God bless, mashallah, mm-mm",
+   "block": "p47"
+  },
+  {
+   "t": 148.72,
+   "end": 151.67,
+   "text": "Move to the beat, it goes dum-da-ra-ra\n(La-la-la-la-la-la-la)",
+   "block": "p48"
+  },
+  {
+   "t": 151.22,
+   "end": 156.55,
+   "text": "Can't get your eyes off my\nCan't get your eyes off my (Ooh)",
+   "block": "p49"
+  },
+  {
+   "t": 156.1,
+   "end": 159.13,
+   "text": "Can't get your eyes off my,\num, tra-la-la",
+   "block": "p50"
+  },
+  {
+   "t": 158.68,
+   "end": 161.91,
+   "text": "Look like an angel,",
+   "block": "p51"
+  },
+  {
+   "t": 161.54,
+   "end": 163.05,
+   "text": "God bless, mashallah (Uh)",
+   "block": "p52"
+  },
+  {
+   "t": 164.24,
+   "end": 167.05,
+   "text": "Move to the beat,\nit goes dum-da-ra-ra",
+   "block": "p53"
+  },
+  {
+   "t": 166.6,
+   "end": 170.95,
+   "text": "Can't get your eyes off my\nCan't get your eyes off my (You)",
+   "block": "p54"
+  },
+  {
+   "t": 171.96,
+   "end": 174.63,
+   "text": "Can't get your eyes off my,\num, tra-la-la (Uh)",
+   "block": "p55"
+  },
+  {
+   "t": 174.18,
+   "end": 178.53,
+   "text": "Look like an angel,\nGod bless, mashallah, mm-mm",
+   "block": "p56"
+  },
+  {
+   "t": 179.24,
+   "end": 182.21,
+   "text": "Move to the beat,\nit goes dum-da-ra-ra",
+   "block": "p57"
+  },
+  {
+   "t": 181.76,
+   "end": 185.45,
+   "text": "Can't get your eyes off my",
+   "block": "p58"
+  },
+  {
+   "t": 185,
+   "end": 188.23,
+   "text": "Can't get your eyes off my,\ntra-la-la",
+   "block": "p59"
+  }
+ ],
+ "curated": true
+}

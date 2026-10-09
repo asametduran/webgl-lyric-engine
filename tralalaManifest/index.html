@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>manifest - TRALALA // Lyrics Video (code)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+</head>
+<body>
+  <canvas id="stage"></canvas>
+
+  <div id="overlay">
+    <h1>TRALALA</h1>
+    <p class="sub">manifest &middot; fan-made lyrics video &middot; all code</p>
+    <div id="bar"><i id="barfill"></i></div>
+    <p id="status">ses yükleniyor&hellip;</p>
+    <button id="start" hidden>&#9654; TAM EKRAN OYNAT</button>
+    <p class="keys">Space duraklat &middot; &larr;/&rarr; 5sn &middot; F tam ekran &middot; , . söz ofseti &plusmn;0.1sn &middot; / sıfırla &middot; D debug &middot; C bölümleri kopyala</p>
+  </div>
+
+  <div id="hud" hidden><i id="hudfill"></i></div>
+  <pre id="debug" hidden></pre>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

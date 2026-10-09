@@ -1,0 +1,16 @@
+{
+  "name": "tralala-manifest-lyrics-mv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "manifest - TRALALA fan-made code lyrics video (Three.js + canvas typography)",
+  "scripts": {
+    "start": "node serve.mjs 8080",
+    "serve": "node serve.mjs 8080",
+    "capture": "node capture.mjs",
+    "lyrics": "python tools/transcribe.py && node tools/make_lyrics.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0"
+  }
+}

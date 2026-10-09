@@ -1,0 +1,8 @@
+node_modules/
+*.mp4
+words.json
+transcribe.log
+serve.log
+client_secret*.json
+token.json
+finish_and_upload.log
