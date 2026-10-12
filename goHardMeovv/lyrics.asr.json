@@ -1,0 +1,261 @@
+{
+ "_note": "Whisper segment lines (word timings). Text is raw ASR: Korean/English mix needs manual cleanup against the official lyrics.",
+ "offset": 0,
+ "source": "faster-whisper large-v3, language auto",
+ "lines": [
+  {
+   "t": 0.0,
+   "end": 3.38,
+   "text": "Yeah, 시간은 빨라 like some movie",
+   "block": "p1"
+  },
+  {
+   "t": 3.08,
+   "end": 6.16,
+   "text": "더 늦기 전에 here we wine",
+   "block": "p2"
+  },
+  {
+   "t": 5.86,
+   "end": 8.8,
+   "text": "Watching back slow motion",
+   "block": "p3"
+  },
+  {
+   "t": 8.5,
+   "end": 11.42,
+   "text": "이 순간 I feel alive",
+   "block": "p4"
+  },
+  {
+   "t": 12.04,
+   "end": 15.1,
+   "text": "밤새워 만들자 못 지킬 비밀",
+   "block": "p5"
+  },
+  {
+   "t": 14.8,
+   "end": 17.24,
+   "text": "I see the look in your eyes",
+   "block": "p6"
+  },
+  {
+   "t": 16.94,
+   "end": 19.86,
+   "text": "Yeah, 시간은 빨라 like some movie",
+   "block": "p7"
+  },
+  {
+   "t": 19.56,
+   "end": 22.32,
+   "text": "그 주인공은 never die",
+   "block": "p8"
+  },
+  {
+   "t": 22.02,
+   "end": 25.64,
+   "text": "Tell me that we're young and forever",
+   "block": "p9"
+  },
+  {
+   "t": 26.86,
+   "end": 29.9,
+   "text": "해가 진다면 now I don't know night",
+   "block": "p10"
+  },
+  {
+   "t": 29.6,
+   "end": 32.66,
+   "text": "땅이 꺼지면 then we'll go on sky high",
+   "block": "p11"
+  },
+  {
+   "t": 32.36,
+   "end": 35.6,
+   "text": "And if we fall in love, fall in love, fall in love",
+   "block": "p12"
+  },
+  {
+   "t": 35.3,
+   "end": 37.06,
+   "text": "겁 없이 fall hard",
+   "block": "p13"
+  },
+  {
+   "t": 39.52,
+   "end": 40.86,
+   "text": "방해된다면 뛰어넘어가던",
+   "block": "p14"
+  },
+  {
+   "t": 40.56,
+   "end": 43.66,
+   "text": "No one in the world that could bring us back down",
+   "block": "p15"
+  },
+  {
+   "t": 43.36,
+   "end": 45.66,
+   "text": "깨진 데도 부딪혀봐",
+   "block": "p16"
+  },
+  {
+   "t": 45.36,
+   "end": 47.72,
+   "text": "Yeah, we'll take it too far",
+   "block": "p17"
+  },
+  {
+   "t": 48.18,
+   "end": 54.48,
+   "text": "Cause we always go hard, hard, hard, hard",
+   "block": "p18"
+  },
+  {
+   "t": 54.18,
+   "end": 58.58,
+   "text": "We always go hard, hard, hard",
+   "block": "p19"
+  },
+  {
+   "t": 58.28,
+   "end": 60.1,
+   "text": "HARD, HARD",
+   "block": "p20"
+  },
+  {
+   "t": 59.8,
+   "end": 61.3,
+   "text": "We always been hard",
+   "block": "p21"
+  },
+  {
+   "t": 61.0,
+   "end": 62.48,
+   "text": "Huh, Appetite",
+   "block": "p22"
+  },
+  {
+   "t": 62.18,
+   "end": 66.52,
+   "text": "야 we, yea we always go",
+   "block": "p23"
+  },
+  {
+   "t": 69.64,
+   "end": 73.4,
+   "text": "I still",
+   "block": "p24",
+   "uncertain": true
+  },
+  {
+   "t": 73.1,
+   "end": 85.76,
+   "text": "go to world that",
+   "block": "p25",
+   "uncertain": true
+  },
+  {
+   "t": 85.46,
+   "end": 88.52,
+   "text": "I can see 가벼워 구했대 가시를 놓겠대",
+   "block": "p26"
+  },
+  {
+   "t": 88.22,
+   "end": 91.12,
+   "text": "맡겨봐 내일은 내일은 나에게",
+   "block": "p27"
+  },
+  {
+   "t": 90.82,
+   "end": 93.28,
+   "text": "던져버릴 걸이 fast fast",
+   "block": "p28"
+  },
+  {
+   "t": 92.98,
+   "end": 95.74,
+   "text": "해가 진다면 they were going all night",
+   "block": "p29"
+  },
+  {
+   "t": 95.44,
+   "end": 98.5,
+   "text": "땅이 꺼지면 they were going sky high",
+   "block": "p30"
+  },
+  {
+   "t": 98.2,
+   "end": 101.42,
+   "text": "And if you fall in love, fall in love, fall in love",
+   "block": "p31"
+  },
+  {
+   "t": 101.12,
+   "end": 102.26,
+   "text": "겁 없이 fall",
+   "block": "p32"
+  },
+  {
+   "t": 104.7,
+   "end": 106.2,
+   "text": "망해된다면 뛰어넘어가",
+   "block": "p33"
+  },
+  {
+   "t": 106.44,
+   "end": 109.58,
+   "text": "No one in the world that could bring us back down",
+   "block": "p34"
+  },
+  {
+   "t": 109.28,
+   "end": 111.46,
+   "text": "깨진 대로 부딪혀봐",
+   "block": "p35"
+  },
+  {
+   "t": 111.16,
+   "end": 113.3,
+   "text": "Yeah, we'll take it too far",
+   "block": "p36"
+  },
+  {
+   "t": 113.0,
+   "end": 120.22,
+   "text": "Yeah, cuz we always go hard, hard, hard, hard",
+   "block": "p37"
+  },
+  {
+   "t": 119.92,
+   "end": 125.82,
+   "text": "We always go hard, hard, hard, hard",
+   "block": "p38"
+  },
+  {
+   "t": 125.52,
+   "end": 136.7,
+   "text": "We always go hard, hard, hard, hard",
+   "block": "p39"
+  },
+  {
+   "t": 138.02,
+   "end": 140.42,
+   "text": "두려운 그저 한순간",
+   "block": "p40"
+  },
+  {
+   "t": 170.12,
+   "end": 176.6,
+   "text": "Never look back, only thinkin' bout right now",
+   "block": "p41"
+  },
+  {
+   "t": 178.48,
+   "end": 181.84,
+   "text": "Go too hard but I'm never gonna slow down",
+   "block": "p42"
+  }
+ ]
+}

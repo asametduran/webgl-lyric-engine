@@ -1,0 +1,13 @@
+{
+  "name": "go-hard-meovv-lyrics-mv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MEOVV - GO HARD fan-made code lyrics video (Canvas2D archive collage + kinetic typography)",
+  "scripts": {
+    "start": "node serve.mjs 8080",
+    "capture": "node capture.mjs",
+    "still": "node tools/still.mjs"
+  },
+  "dependencies": { "playwright": "^1.49.0" }
+}

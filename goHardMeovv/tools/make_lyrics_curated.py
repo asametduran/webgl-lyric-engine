@@ -1,0 +1,52 @@
+"""Curated lyrics.json (cleaned by ear on top of whisper segment timings; official text was not published yet, so
+`doubt:true` marks lines worth a second listen). t/end are final. kind: v=verse line, hook=go-hard hook, pre=build line.
+Usage: python tools/make_lyrics_curated.py"""
+import json
+L = [  # t, end, text, kind, doubt
+ (0.00, 3.2, "Yeah, 시간은 빨라\nlike some movie", "v", 0),
+ (3.08, 5.8, "더 늦기 전에\nhere we go", "v", 1),
+ (5.86, 8.4, "Watching back\nslow motion", "v", 0),
+ (8.50, 11.8, "이 순간\nI feel alive", "v", 0),
+ (12.04, 14.7, "밤새워 만들자\n못 지킬 비밀", "v", 0),
+ (14.80, 16.7, "I see the look\nin your eyes", "v", 0),
+ (16.94, 19.5, "Yeah, 시간은 빨라\nlike some movie", "v", 0),
+ (19.56, 21.8, "그 주인공은\nnever die", "v", 0),
+ (22.02, 26.6, "Tell me that we're\nyoung and forever", "v", 0),
+ (26.86, 29.4, "해가 진다면\nwe'll go all night", "pre", 1),
+ (29.60, 32.2, "땅이 꺼지면\nwe'll go sky high", "pre", 1),
+ (32.36, 35.1, "And if we fall in love\nfall in love, fall in love", "pre", 0),
+ (35.30, 38.6, "겁 없이\nfall hard", "pre", 0),
+ (39.52, 41.9, "방해된다면\n뛰어넘어가", "pre", 1),
+ (40.60, 43.2, "No one in the world\ncould bring us back down", "pre", 0),
+ (43.40, 45.2, "깨진 데도\n부딪혀봐", "pre", 1),
+ (45.40, 48.0, "Yeah, we'll take\nit too far", "pre", 0),
+ (48.18, 54.0, "'Cause we always\ngo hard, hard, hard, hard", "hook", 0),
+ (54.20, 58.2, "We always\ngo hard, hard, hard", "hook", 0),
+ (58.28, 59.7, "HARD, HARD", "hook", 0),
+ (59.80, 61.0, "We always go hard", "hook", 0),
+ (61.00, 62.1, "Huh", "hook", 0),
+ (62.18, 68.8, "야 we, yeah\nwe always go", "hook", 1),
+ (68.90, 70.6, "HARD", "hook", 0),
+ (85.46, 88.1, "가벼워진 걸\n가시를 놓겠대", "v", 1),
+ (88.22, 90.7, "맡겨봐 내일은\n내일은 나에게", "v", 1),
+ (90.82, 92.9, "던져버릴 걸\nfast, fast", "v", 1),
+ (92.98, 95.3, "해가 진다면\nwe'll go all night", "pre", 1),
+ (95.44, 98.1, "땅이 꺼지면\nwe'll go sky high", "pre", 1),
+ (98.20, 101.0, "And if you fall in love\nfall in love, fall in love", "pre", 0),
+ (101.12, 104.2, "겁 없이\nfall hard", "pre", 0),
+ (104.70, 106.2, "방해된다면\n뛰어넘어가", "pre", 1),
+ (106.44, 109.0, "No one in the world\ncould bring us back down", "pre", 0),
+ (109.30, 111.0, "깨진 대로\n부딪혀봐", "pre", 1),
+ (111.20, 112.9, "Yeah, we'll take\nit too far", "pre", 0),
+ (113.00, 119.8, "'Cause we always\ngo hard, hard, hard, hard", "hook", 0),
+ (119.92, 125.4, "We always\ngo hard, hard, hard, hard", "hook", 0),
+ (125.52, 137.0, "We always\ngo hard, hard, hard, hard", "hook", 0),
+ (138.02, 141.5, "두려운\n그저 한순간", "v", 1),
+ (170.12, 177.8, "Never look back\nonly thinkin' bout right now", "v", 0),
+ (178.48, 185.0, "Go too hard\nbut I'm never gonna slow down", "v", 0),
+]
+lines = [{"t": t, "end": e, "text": s, "kind": k, "block": f"p{i+1}", **({"doubt": True} if d else {})} for i, (t, e, s, k, d) in enumerate(L)]
+json.dump({"_note": "Curated by ear on whisper timings; t/end are final (use , . / in the browser for a global offset). doubt:true = verify vs official text.",
+           "offset": 0, "source": "faster-whisper large-v3 timings, text cleaned by ear", "lines": lines},
+          open("lyrics.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print(len(lines), "lines")

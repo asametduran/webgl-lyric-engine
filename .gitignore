@@ -26,3 +26,8 @@ __pycache__/
 
 # generated working data (re-created by tools/transcribe.py)
 words.json
+
+# GO HARD working data (re-created by tools/prep_archive.py / still.mjs; originals are on Wikimedia Commons, see goHardMeovv/assets/CREDITS.md)
+goHardMeovv/assets/*.jpg
+tools/stills/
+**/tools/stills/

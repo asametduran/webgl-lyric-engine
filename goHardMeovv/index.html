@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MEOVV - GO HARD // Lyrics Video (code)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+KR:wght@900&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage" width="1920" height="1080"></canvas>
+
+  <div id="overlay">
+    <h1>GO HARD</h1>
+    <p class="sub">MEOVV &middot; fan-made lyrics video &middot; archive / collage &middot; all code</p>
+    <div id="bar"><i id="barfill"></i></div>
+    <p id="status">loading audio&hellip;</p>
+    <button id="start" hidden>&#9654; PLAY FULLSCREEN</button>
+    <p class="keys">Space pause &middot; &larr;/&rarr; 5s &middot; F fullscreen &middot; , . lyric offset &plusmn;0.1s &middot; / reset &middot; D debug</p>
+  </div>
+
+  <div id="hud" hidden><i id="hudfill"></i></div>
+  <pre id="debug" hidden></pre>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

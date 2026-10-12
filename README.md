@@ -28,6 +28,7 @@ Deterministic FFmpeg 1080p 30fps Output
 |---|---|
 | [`tralalaManifest/`](tralalaManifest) | manifest – *TRALALA*. The full pipeline: Whisper word timestamps -> curated `lyrics.json`, infinity-mirror neon club corridor, fuchsia-highlighted hook words, Playwright + FFmpeg capture (`capture.mjs`). |
 | [`knowMyNameTrueDamage/`](knowMyNameTrueDamage) | True Damage – *Know My Name* (Worlds 2026 anthem). A directed cyberpunk arena instead of a tunnel: a lava-veined obsidian **monolith** that ignites on the hook, a neon **Z-Drive prism** throwing refracted beams, kick-pumped speaker towers, ES/KR graffiti billboards and a holographic Summoner's-Cup-style trophy that lands on the monolith for the finale. Dynamic **director's cut** (15 hard cuts, kick punch and Dutch tilt, glitch on every cut). |
+| [`goHardMeovv/`](goHardMeovv) | MEOVV – *GO HARD* (module 4: **Canvas2D Kinetic Collage Engine**). No 3D world: public-domain Muybridge plates and steam-hammer photographs are cut into frames and stepped "on twos", with film grain, shutter flicker and negative flashes. Typography is the action: a hydraulic press squashes the layout, every HARD is a die stamp, windows multiply, and each hook pass gets a bigger grid. Strict palette (ink / bone / paper + caution yellow), bilingual KR/EN poster type, six chapters. |
 | [`sawadikaLisa/`](sawadikaLisa) | LISA – *SaWaDiKa*. The original: a neon Bangkok street canyon with temple chedis and a wireframe tuk-tuk. Plays live in the browser (optional in-browser `.webm` recording with `R`); no capture script yet. |
 
 ## Getting started
@@ -73,6 +74,24 @@ npm run capture                    # full render -> know-my-name-code-mv.mp4 (19
 
 Optional lyric timing: `python tools/transcribe.py large-v3 en` (faster-whisper) writes `words.json`.
 
+### goHardMeovv (Canvas2D Kinetic Collage Engine)
+
+No Three.js: `scene.js` is a deterministic Canvas2D renderer (`render(t)`), so capture is the same Playwright + FFmpeg loop. Fonts (Anton, Noto Sans KR 900, Space Mono) load from Google Fonts on first run.
+
+```bash
+cd goHardMeovv
+npm install
+npx playwright install chromium
+
+# put your own audio next to package.json as audio.mp3, then:
+python tools/transcribe.py large-v3 auto     # words.json (set PYTHONUTF8=1 on Windows, Hangul output)
+npm start                                    # http://localhost:8080/
+node tools/still.mjs 36.3 58.4 130.2         # single lossless PNG frames -> tools/stills/
+node capture.mjs --crf 18                    # full render -> go-hard-meovv-code-mv.mp4 (1920x1080, 30 fps, ~25 min)
+```
+
+Archive material: the Wikimedia Commons originals are listed in `goHardMeovv/assets/CREDITS.md`; `python tools/prep_archive.py` rebuilds `archive/` from them (crops frames, bakes the ink/bone palette, tints hot steel yellow). `lyrics.json` is curated by ear (`doubt:true` marks lines to verify); HARD stamp times come from `words.json`.
+
 ### sawadikaLisa
 
 ```bash
@@ -88,6 +107,7 @@ See [`sawadikaLisa/README.md`](sawadikaLisa/README.md) for controls and URL opti
 ```
 tralalaManifest/   scene.js  typography.js  timing.js  analyzer.js  main.js  capture.mjs  serve.mjs  tools/
 knowMyNameTrueDamage/   scene.js (cue sheet + SHOTS)  typography.js  timing.js  analyzer.js  main.js  capture.mjs  serve.mjs  tools/
+goHardMeovv/       scene.js (Canvas2D chapters)  analyzer.js  main.js  capture.mjs  serve.mjs  archive/  tools/
 sawadikaLisa/      scene.js  typography.js  timing.js  analyzer.js  main.js  lyrics.json
 ```
 

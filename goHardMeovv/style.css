@@ -1,0 +1,37 @@
+:root { --ink: #0b0b0c; --bone: #ede8dc; --paper: #b8b3a7; --acc: #ffc400; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--ink); color: var(--bone); overflow: hidden; font-family: 'Space Mono', Consolas, monospace; }
+body.playing { cursor: none; }
+
+#stage {
+  position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  display: block; background: var(--ink); width: min(100vw, 177.78vh); height: min(56.25vw, 100vh);
+}
+
+#overlay {
+  position: fixed; inset: 0; z-index: 5; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+  padding: 24px; text-align: center; background: var(--ink);
+}
+#overlay.gone { display: none; }
+#overlay h1 { margin: 0; font: 400 clamp(64px, 14vw, 220px)/1 'Anton', Impact, sans-serif; letter-spacing: .02em; color: var(--bone); }
+.sub { margin: 0; color: var(--acc); letter-spacing: .2em; text-transform: uppercase; font-size: 13px; }
+#bar { width: min(460px, 70vw); height: 4px; background: rgba(237, 232, 220, .18); }
+#barfill { display: block; height: 100%; width: 0; background: var(--acc); }
+#status { margin: 0; font-size: 14px; min-height: 1.3em; max-width: 720px; line-height: 1.5; }
+#start {
+  font: 700 18px 'Space Mono', monospace; letter-spacing: .18em; color: var(--ink); background: var(--acc);
+  border: 0; border-radius: 0; padding: 16px 44px; cursor: pointer;
+}
+#start:hover { filter: brightness(1.1); }
+.keys { margin: 10px 0 0; font-size: 12px; opacity: .55; max-width: 680px; line-height: 1.7; }
+
+#hud { position: fixed; left: 0; right: 0; bottom: 0; height: 3px; z-index: 3; background: rgba(0, 0, 0, .35); }
+#hudfill { display: block; height: 100%; width: 0; background: var(--acc); }
+#debug {
+  position: fixed; top: 10px; left: 10px; margin: 0; padding: 10px 12px; z-index: 4; font: 12px/1.45 Consolas, monospace;
+  background: rgba(0, 0, 0, .75); border: 1px solid var(--acc); color: var(--bone); max-width: 46vw; white-space: pre-wrap;
+}
+#toast {
+  position: fixed; left: 50%; bottom: 7%; transform: translateX(-50%); z-index: 7; padding: 8px 16px; font-size: 14px;
+  background: var(--ink); border: 1px solid var(--acc); color: var(--bone); opacity: 0; transition: opacity .3s; pointer-events: none;
+}

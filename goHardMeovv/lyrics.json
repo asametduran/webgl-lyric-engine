@@ -1,0 +1,308 @@
+{
+ "_note": "Curated by ear on whisper timings; t/end are final (use , . / in the browser for a global offset). doubt:true = verify vs official text.",
+ "offset": 0,
+ "source": "faster-whisper large-v3 timings, text cleaned by ear",
+ "lines": [
+  {
+   "t": 0.0,
+   "end": 3.2,
+   "text": "Yeah, 시간은 빨라\nlike some movie",
+   "kind": "v",
+   "block": "p1"
+  },
+  {
+   "t": 3.08,
+   "end": 5.8,
+   "text": "더 늦기 전에\nhere we go",
+   "kind": "v",
+   "block": "p2",
+   "doubt": true
+  },
+  {
+   "t": 5.86,
+   "end": 8.4,
+   "text": "Watching back\nslow motion",
+   "kind": "v",
+   "block": "p3"
+  },
+  {
+   "t": 8.5,
+   "end": 11.8,
+   "text": "이 순간\nI feel alive",
+   "kind": "v",
+   "block": "p4"
+  },
+  {
+   "t": 12.04,
+   "end": 14.7,
+   "text": "밤새워 만들자\n못 지킬 비밀",
+   "kind": "v",
+   "block": "p5"
+  },
+  {
+   "t": 14.8,
+   "end": 16.7,
+   "text": "I see the look\nin your eyes",
+   "kind": "v",
+   "block": "p6"
+  },
+  {
+   "t": 16.94,
+   "end": 19.5,
+   "text": "Yeah, 시간은 빨라\nlike some movie",
+   "kind": "v",
+   "block": "p7"
+  },
+  {
+   "t": 19.56,
+   "end": 21.8,
+   "text": "그 주인공은\nnever die",
+   "kind": "v",
+   "block": "p8"
+  },
+  {
+   "t": 22.02,
+   "end": 26.6,
+   "text": "Tell me that we're\nyoung and forever",
+   "kind": "v",
+   "block": "p9"
+  },
+  {
+   "t": 26.86,
+   "end": 29.4,
+   "text": "해가 진다면\nwe'll go all night",
+   "kind": "pre",
+   "block": "p10",
+   "doubt": true
+  },
+  {
+   "t": 29.6,
+   "end": 32.2,
+   "text": "땅이 꺼지면\nwe'll go sky high",
+   "kind": "pre",
+   "block": "p11",
+   "doubt": true
+  },
+  {
+   "t": 32.36,
+   "end": 35.1,
+   "text": "And if we fall in love\nfall in love, fall in love",
+   "kind": "pre",
+   "block": "p12"
+  },
+  {
+   "t": 35.3,
+   "end": 38.6,
+   "text": "겁 없이\nfall hard",
+   "kind": "pre",
+   "block": "p13"
+  },
+  {
+   "t": 39.52,
+   "end": 41.9,
+   "text": "방해된다면\n뛰어넘어가",
+   "kind": "pre",
+   "block": "p14",
+   "doubt": true
+  },
+  {
+   "t": 40.6,
+   "end": 43.2,
+   "text": "No one in the world\ncould bring us back down",
+   "kind": "pre",
+   "block": "p15"
+  },
+  {
+   "t": 43.4,
+   "end": 45.2,
+   "text": "깨진 데도\n부딪혀봐",
+   "kind": "pre",
+   "block": "p16",
+   "doubt": true
+  },
+  {
+   "t": 45.4,
+   "end": 48.0,
+   "text": "Yeah, we'll take\nit too far",
+   "kind": "pre",
+   "block": "p17"
+  },
+  {
+   "t": 48.18,
+   "end": 54.0,
+   "text": "'Cause we always\ngo hard, hard, hard, hard",
+   "kind": "hook",
+   "block": "p18"
+  },
+  {
+   "t": 54.2,
+   "end": 58.2,
+   "text": "We always\ngo hard, hard, hard",
+   "kind": "hook",
+   "block": "p19"
+  },
+  {
+   "t": 58.28,
+   "end": 59.7,
+   "text": "HARD, HARD",
+   "kind": "hook",
+   "block": "p20"
+  },
+  {
+   "t": 59.8,
+   "end": 61.0,
+   "text": "We always go hard",
+   "kind": "hook",
+   "block": "p21"
+  },
+  {
+   "t": 61.0,
+   "end": 62.1,
+   "text": "Huh",
+   "kind": "hook",
+   "block": "p22"
+  },
+  {
+   "t": 62.18,
+   "end": 68.8,
+   "text": "야 we, yeah\nwe always go",
+   "kind": "hook",
+   "block": "p23",
+   "doubt": true
+  },
+  {
+   "t": 68.9,
+   "end": 70.6,
+   "text": "HARD",
+   "kind": "hook",
+   "block": "p24"
+  },
+  {
+   "t": 85.46,
+   "end": 88.1,
+   "text": "가벼워진 걸\n가시를 놓겠대",
+   "kind": "v",
+   "block": "p25",
+   "doubt": true
+  },
+  {
+   "t": 88.22,
+   "end": 90.7,
+   "text": "맡겨봐 내일은\n내일은 나에게",
+   "kind": "v",
+   "block": "p26",
+   "doubt": true
+  },
+  {
+   "t": 90.82,
+   "end": 92.9,
+   "text": "던져버릴 걸\nfast, fast",
+   "kind": "v",
+   "block": "p27",
+   "doubt": true
+  },
+  {
+   "t": 92.98,
+   "end": 95.3,
+   "text": "해가 진다면\nwe'll go all night",
+   "kind": "pre",
+   "block": "p28",
+   "doubt": true
+  },
+  {
+   "t": 95.44,
+   "end": 98.1,
+   "text": "땅이 꺼지면\nwe'll go sky high",
+   "kind": "pre",
+   "block": "p29",
+   "doubt": true
+  },
+  {
+   "t": 98.2,
+   "end": 101.0,
+   "text": "And if you fall in love\nfall in love, fall in love",
+   "kind": "pre",
+   "block": "p30"
+  },
+  {
+   "t": 101.12,
+   "end": 104.2,
+   "text": "겁 없이\nfall hard",
+   "kind": "pre",
+   "block": "p31"
+  },
+  {
+   "t": 104.7,
+   "end": 106.2,
+   "text": "방해된다면\n뛰어넘어가",
+   "kind": "pre",
+   "block": "p32",
+   "doubt": true
+  },
+  {
+   "t": 106.44,
+   "end": 109.0,
+   "text": "No one in the world\ncould bring us back down",
+   "kind": "pre",
+   "block": "p33"
+  },
+  {
+   "t": 109.3,
+   "end": 111.0,
+   "text": "깨진 대로\n부딪혀봐",
+   "kind": "pre",
+   "block": "p34",
+   "doubt": true
+  },
+  {
+   "t": 111.2,
+   "end": 112.9,
+   "text": "Yeah, we'll take\nit too far",
+   "kind": "pre",
+   "block": "p35"
+  },
+  {
+   "t": 113.0,
+   "end": 119.8,
+   "text": "'Cause we always\ngo hard, hard, hard, hard",
+   "kind": "hook",
+   "block": "p36"
+  },
+  {
+   "t": 119.92,
+   "end": 125.4,
+   "text": "We always\ngo hard, hard, hard, hard",
+   "kind": "hook",
+   "block": "p37"
+  },
+  {
+   "t": 125.52,
+   "end": 137.0,
+   "text": "We always\ngo hard, hard, hard, hard",
+   "kind": "hook",
+   "block": "p38"
+  },
+  {
+   "t": 138.02,
+   "end": 141.5,
+   "text": "두려운\n그저 한순간",
+   "kind": "v",
+   "block": "p39",
+   "doubt": true
+  },
+  {
+   "t": 170.12,
+   "end": 177.8,
+   "text": "Never look back\nonly thinkin' bout right now",
+   "kind": "v",
+   "block": "p40"
+  },
+  {
+   "t": 178.48,
+   "end": 185.0,
+   "text": "Go too hard\nbut I'm never gonna slow down",
+   "kind": "v",
+   "block": "p41"
+  }
+ ]
+}
