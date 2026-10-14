@@ -29,6 +29,7 @@ Deterministic FFmpeg 1080p 30fps Output
 | [`tralalaManifest/`](tralalaManifest) | manifest – *TRALALA*. The full pipeline: Whisper word timestamps -> curated `lyrics.json`, infinity-mirror neon club corridor, fuchsia-highlighted hook words, Playwright + FFmpeg capture (`capture.mjs`). |
 | [`knowMyNameTrueDamage/`](knowMyNameTrueDamage) | True Damage – *Know My Name* (Worlds 2026 anthem). A directed cyberpunk arena instead of a tunnel: a lava-veined obsidian **monolith** that ignites on the hook, a neon **Z-Drive prism** throwing refracted beams, kick-pumped speaker towers, ES/KR graffiti billboards and a holographic Summoner's-Cup-style trophy that lands on the monolith for the finale. Dynamic **director's cut** (15 hard cuts, kick punch and Dutch tilt, glitch on every cut). |
 | [`goHardMeovv/`](goHardMeovv) | MEOVV – *GO HARD* (module 4: **Canvas2D Kinetic Collage Engine**). No 3D world: public-domain Muybridge plates and steam-hammer photographs are cut into frames and stepped "on twos", with film grain, shutter flicker and negative flashes. Typography is the action: a hydraulic press squashes the layout, every HARD is a die stamp, windows multiply, and each hook pass gets a bigger grid. Strict palette (ink / bone / paper + caution yellow), bilingual KR/EN poster type, six chapters. |
+| [`unloveuKatseye/`](unloveuKatseye) | KATSEYE – *Unloveu* (module 5: **Frosted-Glass / Prismatic Editorial Engine**). Canvas2D only, no footage and no generated media. Backdrop-blurred glass panels hug each lyric line, a rotating glass prism throws spectral beams on the choruses (a notch bigger each pass), the bridge cracks into drifting shards, and a chrome bead necklace lights up in verse II. Palette: night `#0A1230`, ice `#BFE3FF`, bone `#F2EEE6`, lilac `#B9A6FF`, with negative (difference) flashes on chapter cuts. Seven chapters; fonts are self-hosted. |
 | [`sawadikaLisa/`](sawadikaLisa) | LISA – *SaWaDiKa*. The original: a neon Bangkok street canyon with temple chedis and a wireframe tuk-tuk. Plays live in the browser (optional in-browser `.webm` recording with `R`); no capture script yet. |
 
 ## Getting started
@@ -92,6 +93,23 @@ node capture.mjs --crf 18                    # full render -> go-hard-meovv-code
 
 Archive material: the Wikimedia Commons originals are listed in `goHardMeovv/assets/CREDITS.md`; `python tools/prep_archive.py` rebuilds `archive/` from them (crops frames, bakes the ink/bone palette, tints hot steel yellow). `lyrics.json` is curated by ear (`doubt:true` marks lines to verify); HARD stamp times come from `words.json`.
 
+### unloveuKatseye (Frosted-Glass / Prismatic Editorial Engine)
+
+Canvas2D like `goHardMeovv`, same Playwright + FFmpeg capture. Instrument Serif and Inter Tight are self-hosted in `assets/fonts` (OFL), so no CDN is needed. Optional video layers (`assets/layers.json`) are supported but not used: the shipped look is fully procedural.
+
+```bash
+cd unloveuKatseye
+npm install
+npx playwright install chromium
+
+# put your own audio next to package.json as audio.mp3, then:
+python tools/transcribe.py large-v3 en       # words.json
+python tools/make_lyrics.py                  # raw lyrics.json (the shipped one is curated; `doubt:true` = verify)
+npm start                                    # http://localhost:8080/
+node tools/still.mjs 98 166.8 200            # single lossless PNG frames -> tools/stills/
+node capture.mjs --crf 18                    # full render -> unloveu-katseye-code-mv.mp4 (1920x1080, 30 fps, ~20 min)
+```
+
 ### sawadikaLisa
 
 ```bash
@@ -108,6 +126,7 @@ See [`sawadikaLisa/README.md`](sawadikaLisa/README.md) for controls and URL opti
 tralalaManifest/   scene.js  typography.js  timing.js  analyzer.js  main.js  capture.mjs  serve.mjs  tools/
 knowMyNameTrueDamage/   scene.js (cue sheet + SHOTS)  typography.js  timing.js  analyzer.js  main.js  capture.mjs  serve.mjs  tools/
 goHardMeovv/       scene.js (Canvas2D chapters)  analyzer.js  main.js  capture.mjs  serve.mjs  archive/  tools/
+unloveuKatseye/    scene.js (glass / prism / crack chapters)  analyzer.js  main.js  capture.mjs  serve.mjs  assets/fonts  tools/
 sawadikaLisa/      scene.js  typography.js  timing.js  analyzer.js  main.js  lyrics.json
 ```
 

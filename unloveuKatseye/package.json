@@ -1,0 +1,12 @@
+{
+  "name": "unloveu-katseye-lyrics-mv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "KATSEYE - Unloveu fan-made code lyrics video (Canvas2D frosted-glass / prismatic editorial typography)",
+  "scripts": {
+    "start": "node serve.mjs 8080",
+    "capture": "node capture.mjs"
+  },
+  "dependencies": { "playwright": "^1.49.0" }
+}

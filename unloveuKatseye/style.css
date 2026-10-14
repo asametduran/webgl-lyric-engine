@@ -1,0 +1,42 @@
+/* self-hosted (OFL): Instrument Serif + Inter Tight via @fontsource, copied to assets/fonts */
+@font-face { font-family: 'Instrument Serif'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/instrument-serif-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; font-display: block; src: url(assets/fonts/instrument-serif-latin-400-italic.woff2) format('woff2'); }
+@font-face { font-family: 'Inter Tight'; font-style: normal; font-weight: 500; font-display: block; src: url(assets/fonts/inter-tight-latin-500-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Inter Tight'; font-style: normal; font-weight: 700; font-display: block; src: url(assets/fonts/inter-tight-latin-700-normal.woff2) format('woff2'); }
+:root { --night: #0a1230; --ice: #bfe3ff; --bone: #f2eee6; --lilac: #b9a6ff; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--night); color: var(--bone); overflow: hidden; font-family: 'Inter Tight', 'Segoe UI', sans-serif; }
+body.playing { cursor: none; }
+
+#stage {
+  position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  display: block; background: var(--night); width: min(100vw, 177.78vh); height: min(56.25vw, 100vh);
+}
+
+#overlay {
+  position: fixed; inset: 0; z-index: 5; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+  padding: 24px; text-align: center; background: radial-gradient(ellipse at 50% 40%, #16245a 0%, var(--night) 70%);
+}
+#overlay.gone { display: none; }
+#overlay h1 { margin: 0; font: italic 400 clamp(72px, 15vw, 240px)/1 'Instrument Serif', Georgia, serif; letter-spacing: -.01em; color: var(--bone); }
+.sub { margin: 0; color: var(--ice); letter-spacing: .22em; text-transform: uppercase; font-size: 12px; font-weight: 500; }
+#bar { width: min(460px, 70vw); height: 3px; background: rgba(191, 227, 255, .18); }
+#barfill { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--ice), var(--lilac)); }
+#status { margin: 0; font-size: 14px; min-height: 1.3em; max-width: 720px; line-height: 1.5; opacity: .85; }
+#start {
+  font: 700 16px 'Inter Tight', sans-serif; letter-spacing: .2em; color: var(--night); background: var(--bone);
+  border: 0; border-radius: 999px; padding: 16px 44px; cursor: pointer;
+}
+#start:hover { background: var(--ice); }
+.keys { margin: 10px 0 0; font-size: 12px; opacity: .5; max-width: 680px; line-height: 1.7; }
+
+#hud { position: fixed; left: 0; right: 0; bottom: 0; height: 3px; z-index: 3; background: rgba(0, 0, 0, .35); }
+#hudfill { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--ice), var(--lilac)); }
+#debug {
+  position: fixed; top: 10px; left: 10px; margin: 0; padding: 10px 12px; z-index: 4; font: 12px/1.45 Consolas, monospace;
+  background: rgba(10, 18, 48, .85); border: 1px solid var(--ice); color: var(--bone); max-width: 46vw; white-space: pre-wrap;
+}
+#toast {
+  position: fixed; left: 50%; bottom: 7%; transform: translateX(-50%); z-index: 7; padding: 8px 16px; font-size: 14px;
+  background: var(--night); border: 1px solid var(--ice); color: var(--bone); opacity: 0; transition: opacity .3s; pointer-events: none;
+}

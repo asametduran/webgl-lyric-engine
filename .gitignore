@@ -31,3 +31,11 @@ words.json
 goHardMeovv/assets/*.jpg
 tools/stills/
 **/tools/stills/
+
+# Higgsfield skills install + temp generations (never commit; re-create with `npx skills add higgsfield-ai/skills`)
+.agents/
+.claude/skills/
+skills-lock.json
+**/higgsfield-out/
+**/higgsfield_tmp/
+.higgsfield/

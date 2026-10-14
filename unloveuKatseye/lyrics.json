@@ -1,0 +1,328 @@
+{
+ "_note": "Curated: whisper timings, text fixed by context/repetition (chorus lines repeat). doubt:true = verify against the official lyrics before release.",
+ "offset": 0,
+ "source": "faster-whisper large-v3 timings, text cleaned by ear/context",
+ "lines": [
+  {
+   "t": 8.2,
+   "end": 9.08,
+   "text": "Unloveu",
+   "block": "p1"
+  },
+  {
+   "t": 20.32,
+   "end": 21.71,
+   "text": "Issues on the floor",
+   "block": "p2"
+  },
+  {
+   "t": 21.56,
+   "end": 25.03,
+   "text": "I know a thing about it, I've been there before",
+   "block": "p3"
+  },
+  {
+   "t": 24.88,
+   "end": 27.27,
+   "text": "Too many times for counting",
+   "block": "p4"
+  },
+  {
+   "t": 27.12,
+   "end": 31.29,
+   "text": "And a heart don't break like a lot of things, baby",
+   "block": "p5"
+  },
+  {
+   "t": 31.14,
+   "end": 34.31,
+   "text": "I love you, I-I-I-I love you",
+   "block": "p6"
+  },
+  {
+   "t": 34.16,
+   "end": 37.41,
+   "text": "You're my slamming doors, one and the same, the same",
+   "block": "p7"
+  },
+  {
+   "t": 37.26,
+   "end": 41.01,
+   "text": "Could I hate you more? And there's an understatement",
+   "block": "p8"
+  },
+  {
+   "t": 40.86,
+   "end": 45.05,
+   "text": "Cause you play games with my brain like crazy",
+   "block": "p9"
+  },
+  {
+   "t": 44.9,
+   "end": 48.09,
+   "text": "I love you, I-I-I-I love you",
+   "block": "p10"
+  },
+  {
+   "t": 47.94,
+   "end": 50.76,
+   "text": "You're so quick to tell me shit I need",
+   "block": "p11"
+  },
+  {
+   "t": 51.62,
+   "end": 55.54,
+   "text": "Always on some don'ts, I'm like, I need to find me",
+   "block": "p12",
+   "doubt": true
+  },
+  {
+   "t": 57.36,
+   "end": 61.43,
+   "text": "Boy, please, don't remind me",
+   "block": "p13"
+  },
+  {
+   "t": 61.28,
+   "end": 64.37,
+   "text": "A lot of good nights that I let go to waste",
+   "block": "p14"
+  },
+  {
+   "t": 64.22,
+   "end": 67.89,
+   "text": "You were my heart and some tears on my face",
+   "block": "p15",
+   "doubt": true
+  },
+  {
+   "t": 67.74,
+   "end": 71.93,
+   "text": "And you'll never get the damage you did",
+   "block": "p16"
+  },
+  {
+   "t": 71.78,
+   "end": 74.17,
+   "text": "It's true, it's true",
+   "block": "p17"
+  },
+  {
+   "t": 74.02,
+   "end": 78.09,
+   "text": "A lot of bad habits you burned in my mind",
+   "block": "p18"
+  },
+  {
+   "t": 77.94,
+   "end": 81.34,
+   "text": "I'm not saying that it happened overnight",
+   "block": "p19"
+  },
+  {
+   "t": 81.82,
+   "end": 85.65,
+   "text": "But time didn't shift, finally it hit",
+   "block": "p20",
+   "doubt": true
+  },
+  {
+   "t": 85.5,
+   "end": 93.3,
+   "text": "I do love you, I do, I, I do",
+   "block": "p21"
+  },
+  {
+   "t": 95.2,
+   "end": 100.15,
+   "text": "Love you, I do, I, I do",
+   "block": "p22"
+  },
+  {
+   "t": 100.0,
+   "end": 103.29,
+   "text": "I love you",
+   "block": "p23"
+  },
+  {
+   "t": 103.14,
+   "end": 106.01,
+   "text": "I love you, I-I-I-I love you",
+   "block": "p24"
+  },
+  {
+   "t": 105.86,
+   "end": 110.05,
+   "text": "Yes, just like a lot of men, you like to project",
+   "block": "p25"
+  },
+  {
+   "t": 109.9,
+   "end": 113.11,
+   "text": "And I wear your words like a necklace",
+   "block": "p26"
+  },
+  {
+   "t": 112.96,
+   "end": 116.51,
+   "text": "I've stopped my hand-space lately",
+   "block": "p27",
+   "doubt": true
+  },
+  {
+   "t": 116.36,
+   "end": 118.26,
+   "text": "Oh baby",
+   "block": "p28"
+  },
+  {
+   "t": 118.52,
+   "end": 122.31,
+   "text": "A lot of good nights that I let go to waste",
+   "block": "p29"
+  },
+  {
+   "t": 122.16,
+   "end": 125.83,
+   "text": "You were my heart and some tears on my face",
+   "block": "p30",
+   "doubt": true
+  },
+  {
+   "t": 125.68,
+   "end": 129.79,
+   "text": "And you never get the damage you did",
+   "block": "p31"
+  },
+  {
+   "t": 129.64,
+   "end": 131.89,
+   "text": "It's true, it's true",
+   "block": "p32"
+  },
+  {
+   "t": 131.74,
+   "end": 135.95,
+   "text": "A lot of bad habits you burned in my mind",
+   "block": "p33"
+  },
+  {
+   "t": 135.8,
+   "end": 138.99,
+   "text": "I'm not saying that it happened overnight",
+   "block": "p34"
+  },
+  {
+   "t": 138.84,
+   "end": 143.45,
+   "text": "But time didn't shift, finally it hit",
+   "block": "p35",
+   "doubt": true
+  },
+  {
+   "t": 143.3,
+   "end": 144.4,
+   "text": "I do",
+   "block": "p36"
+  },
+  {
+   "t": 146.24,
+   "end": 151.03,
+   "text": "Love you, I do, I, I do",
+   "block": "p37"
+  },
+  {
+   "t": 150.88,
+   "end": 157.9,
+   "text": "Love you, I do, I, I do",
+   "block": "p38"
+  },
+  {
+   "t": 160.36,
+   "end": 163.28,
+   "text": "You're so quick to tell me shit I need",
+   "block": "p39"
+  },
+  {
+   "t": 164.0,
+   "end": 167.86,
+   "text": "Always on some don'ts, I'm like, I need to find me",
+   "block": "p40",
+   "doubt": true
+  },
+  {
+   "t": 169.56,
+   "end": 173.73,
+   "text": "Boy, please, don't remind me",
+   "block": "p41",
+   "doubt": true
+  },
+  {
+   "t": 173.58,
+   "end": 176.71,
+   "text": "lot of good nights that I let go to waste",
+   "block": "p42"
+  },
+  {
+   "t": 176.56,
+   "end": 180.29,
+   "text": "You were my heart and some tears on my face",
+   "block": "p43"
+  },
+  {
+   "t": 180.14,
+   "end": 184.27,
+   "text": "And you'll never get the damage you did",
+   "block": "p44"
+  },
+  {
+   "t": 184.12,
+   "end": 186.43,
+   "text": "It's true, it's true",
+   "block": "p45"
+  },
+  {
+   "t": 186.28,
+   "end": 190.41,
+   "text": "A lot of bad habits you burned in my mind",
+   "block": "p46"
+  },
+  {
+   "t": 190.26,
+   "end": 193.51,
+   "text": "I'm not saying that it happened overnight",
+   "block": "p47"
+  },
+  {
+   "t": 193.36,
+   "end": 198.67,
+   "text": "But time didn't shift, finally it hit, I do",
+   "block": "p48",
+   "doubt": true
+  },
+  {
+   "t": 198.52,
+   "end": 205.51,
+   "text": "I love you, I do, I, I do",
+   "block": "p49"
+  },
+  {
+   "t": 205.36,
+   "end": 212.33,
+   "text": "I love you, I do, I, I do",
+   "block": "p50"
+  },
+  {
+   "t": 212.18,
+   "end": 216.14,
+   "text": "I love you",
+   "block": "p51"
+  },
+  {
+   "t": 216.32,
+   "end": 221.66,
+   "text": "I, I, I, I, I, I, I, I, I love you",
+   "block": "p52"
+  }
+ ]
+}
