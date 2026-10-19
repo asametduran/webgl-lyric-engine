@@ -30,6 +30,7 @@ Deterministic FFmpeg 1080p 30fps Output
 | [`knowMyNameTrueDamage/`](knowMyNameTrueDamage) | True Damage – *Know My Name* (Worlds 2026 anthem). A directed cyberpunk arena instead of a tunnel: a lava-veined obsidian **monolith** that ignites on the hook, a neon **Z-Drive prism** throwing refracted beams, kick-pumped speaker towers, ES/KR graffiti billboards and a holographic Summoner's-Cup-style trophy that lands on the monolith for the finale. Dynamic **director's cut** (15 hard cuts, kick punch and Dutch tilt, glitch on every cut). |
 | [`goHardMeovv/`](goHardMeovv) | MEOVV – *GO HARD* (module 4: **Canvas2D Kinetic Collage Engine**). No 3D world: public-domain Muybridge plates and steam-hammer photographs are cut into frames and stepped "on twos", with film grain, shutter flicker and negative flashes. Typography is the action: a hydraulic press squashes the layout, every HARD is a die stamp, windows multiply, and each hook pass gets a bigger grid. Strict palette (ink / bone / paper + caution yellow), bilingual KR/EN poster type, six chapters. |
 | [`unloveuKatseye/`](unloveuKatseye) | KATSEYE – *Unloveu* (module 5: **Frosted-Glass / Prismatic Editorial Engine**). Canvas2D only, no footage and no generated media. Backdrop-blurred glass panels hug each lyric line, a rotating glass prism throws spectral beams on the choruses (a notch bigger each pass), the bridge cracks into drifting shards, and a chrome bead necklace lights up in verse II. Palette: night `#0A1230`, ice `#BFE3FF`, bone `#F2EEE6`, lilac `#B9A6FF`, with negative (difference) flashes on chapter cuts. Seven chapters; fonts are self-hosted. |
+| [`firestarterKDA/`](firestarterKDA) | K/DA – *FIRESTARTER* (module 6: **Line Distribution + Karaoke Visualizer**). Canvas2D only, no footage and no generated media. A live HUD tracks each singer's cumulative seconds and share (Miyeon / Soyeon / Sophie Powers / Mimi Webb, colour-coded to Ahri / Akali / Evelynn / Kai'Sa) with a glow pulse on whoever is singing; lyrics fill word by word (karaoke sweep) with Hangul over romanization; the backdrop is reactive neon smoke, a beat grid, CRT scanlines, kick-triggered ember sparks and glitch slices, and the outro shows a **Final Line Distribution** ranking. Palette: obsidian `#08080C`, magenta `#FF0055`, acid `#00FF88`, violet `#9D00FF`, cobalt `#00D4FF`, gold `#FFD700`, ember `#FF5500`. Fonts are self-hosted. |
 | [`sawadikaLisa/`](sawadikaLisa) | LISA – *SaWaDiKa*. The original: a neon Bangkok street canyon with temple chedis and a wireframe tuk-tuk. Plays live in the browser (optional in-browser `.webm` recording with `R`); no capture script yet. |
 
 ## Getting started
@@ -110,6 +111,23 @@ node tools/still.mjs 98 166.8 200            # single lossless PNG frames -> too
 node capture.mjs --crf 18                    # full render -> unloveu-katseye-code-mv.mp4 (1920x1080, 30 fps, ~20 min)
 ```
 
+### firestarterKDA (Line Distribution + Karaoke Visualizer)
+
+Canvas2D like `goHardMeovv`, same Playwright + FFmpeg capture. Chakra Petch, Black Han Sans and Share Tech Mono are self-hosted in `assets/fonts` (OFL; `fonts.css` is generated from `@fontsource`), so no CDN is needed. `lyrics.json` carries the per-line singer attribution (`singers`), Hangul romanization (`rom`) and word times; `assumed:true` marks sections where the split between singers is a guess.
+
+```bash
+cd firestarterKDA
+npm install
+npx playwright install chromium
+
+# put your own audio next to package.json as audio.mp3, then:
+python tools/transcribe.py large-v3 auto     # words.json (set PYTHONUTF8=1 / PYTHONIOENCODING=utf-8 on Windows)
+python tools/make_lyrics.py                  # rebuilds lyrics.json (curated text + singer split + line distribution stats)
+npm start                                    # http://localhost:8080/
+node capture.mjs --start 100 --end 110 --out test.mp4   # quick preview clip
+npm run capture                              # full render -> firestarter-kda-code-mv.mp4 (1920x1080, 30 fps, ~15 min)
+```
+
 ### sawadikaLisa
 
 ```bash
@@ -127,6 +145,7 @@ tralalaManifest/   scene.js  typography.js  timing.js  analyzer.js  main.js  cap
 knowMyNameTrueDamage/   scene.js (cue sheet + SHOTS)  typography.js  timing.js  analyzer.js  main.js  capture.mjs  serve.mjs  tools/
 goHardMeovv/       scene.js (Canvas2D chapters)  analyzer.js  main.js  capture.mjs  serve.mjs  archive/  tools/
 unloveuKatseye/    scene.js (glass / prism / crack chapters)  analyzer.js  main.js  capture.mjs  serve.mjs  assets/fonts  tools/
+firestarterKDA/    scene.js (HUD / karaoke / outro table)  analyzer.js  main.js  capture.mjs  serve.mjs  fonts.css  assets/fonts  tools/
 sawadikaLisa/      scene.js  typography.js  timing.js  analyzer.js  main.js  lyrics.json
 ```
 

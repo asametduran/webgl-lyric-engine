@@ -1,0 +1,23 @@
+@import url(fonts.css);
+:root { --obsidian: #08080C; --magenta: #FF0055; --acid: #00FF88; --violet: #9D00FF; --cobalt: #00D4FF; --gold: #FFD700; --ember: #FF5500; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--obsidian); color: #fff; overflow: hidden; font-family: 'Chakra Petch', 'Segoe UI', sans-serif; }
+body.playing { cursor: none; }
+#stage { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); display: block; background: var(--obsidian); width: min(100vw, 177.78vh); height: min(56.25vw, 100vh); }
+#overlay {
+  position: fixed; inset: 0; z-index: 5; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+  padding: 24px; text-align: center; background: radial-gradient(ellipse at 50% 40%, #1a0a24 0%, var(--obsidian) 70%);
+}
+#overlay.gone { display: none; }
+#overlay h1 { margin: 0; font: 700 clamp(54px, 11vw, 190px)/1 'Chakra Petch', sans-serif; letter-spacing: .04em; color: #fff; text-shadow: 3px 0 var(--magenta), -3px 0 var(--cobalt); }
+.sub { margin: 0; color: var(--acid); letter-spacing: .26em; text-transform: uppercase; font-size: 12px; font-weight: 500; }
+#bar { width: min(460px, 70vw); height: 3px; background: rgba(255, 255, 255, .12); }
+#barfill { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--magenta), var(--violet), var(--cobalt)); }
+#status { margin: 0; font-size: 14px; min-height: 1.3em; max-width: 720px; line-height: 1.5; opacity: .85; }
+#start { font: 700 16px 'Chakra Petch', sans-serif; letter-spacing: .22em; color: var(--obsidian); background: var(--acid); border: 0; clip-path: polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%); padding: 16px 52px; cursor: pointer; }
+#start:hover { background: #fff; }
+.keys { margin: 10px 0 0; font-size: 12px; opacity: .5; max-width: 680px; line-height: 1.7; }
+#hud { position: fixed; left: 0; right: 0; bottom: 0; height: 3px; z-index: 3; background: rgba(0, 0, 0, .35); }
+#hudfill { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--magenta), var(--violet), var(--cobalt)); }
+#debug { position: fixed; top: 10px; left: 10px; margin: 0; padding: 10px 12px; z-index: 4; font: 12px/1.45 Consolas, monospace; background: rgba(8, 8, 12, .88); border: 1px solid var(--acid); color: #fff; max-width: 46vw; white-space: pre-wrap; }
+#toast { position: fixed; left: 50%; bottom: 7%; transform: translateX(-50%); z-index: 7; padding: 8px 16px; font-size: 14px; background: var(--obsidian); border: 1px solid var(--acid); color: #fff; opacity: 0; transition: opacity .3s; pointer-events: none; }

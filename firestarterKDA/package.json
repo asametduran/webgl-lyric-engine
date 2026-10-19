@@ -1,0 +1,10 @@
+{
+  "name": "firestarter-kda-lyrics-mv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "K/DA - FIRESTARTER fan-made code lyrics video: Line Distribution HUD + karaoke visualizer (Canvas2D, neon ember / CRT glitch)",
+  "scripts": { "start": "node serve.mjs 8080", "capture": "node capture.mjs" },
+  "dependencies": { "playwright": "^1.49.0" },
+  "devDependencies": { "@fontsource/chakra-petch": "^5.0.0", "@fontsource/black-han-sans": "^5.0.0", "@fontsource/share-tech-mono": "^5.0.0" }
+}

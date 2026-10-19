@@ -39,3 +39,6 @@ skills-lock.json
 **/higgsfield-out/
 **/higgsfield_tmp/
 .higgsfield/
+
+# secrets
+*cookies.txt
