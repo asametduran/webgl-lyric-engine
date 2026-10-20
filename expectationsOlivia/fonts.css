@@ -1,0 +1,5 @@
+/* self-hosted (OFL) via @fontsource: Bungee (game-show display), Rubik Mono One (chyron), VT323 (LED scoreboard), Permanent Marker (zine scrawl) */
+@font-face { font-family: 'Bungee'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/bungee-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Rubik Mono One'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/rubik-mono-one-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'VT323'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/vt323-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Permanent Marker'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/permanent-marker-latin-400-normal.woff2) format('woff2'); }

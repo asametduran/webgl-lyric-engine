@@ -1,0 +1,2471 @@
+{
+ "_note": "Lyrics: user-supplied reference; times: Whisper large-v3 (+ clip re-run 246-264). Word times within a line are proportional. Chorus 1 stops at 'passive' because the skit cuts in. Host speech -> skits[].events (TV graphics).",
+ "colors": {
+  "olivia": "#8A2BE2",
+  "olivia_dark": "#5B18A7",
+  "chappell": "#FF1493",
+  "chappell_dark": "#E6005C",
+  "gold": "#FFD700",
+  "cyan": "#00F5FF",
+  "bg": "#0F0F14"
+ },
+ "duration": 292.63,
+ "sections": [
+  {
+   "id": "verse1",
+   "label": "Verse 1",
+   "chapter": 1,
+   "lines": [
+    {
+     "t": 50.0,
+     "end": 56.4,
+     "singers": [
+      "olivia"
+     ],
+     "text": "I met him at a party, I think he was on drugs",
+     "words": [
+      {
+       "w": "I",
+       "s": 50.0,
+       "e": 50.19
+      },
+      {
+       "w": "met",
+       "s": 50.19,
+       "e": 50.78
+      },
+      {
+       "w": "him",
+       "s": 50.78,
+       "e": 51.36
+      },
+      {
+       "w": "at",
+       "s": 51.36,
+       "e": 51.75
+      },
+      {
+       "w": "a",
+       "s": 51.75,
+       "e": 51.94
+      },
+      {
+       "w": "party,",
+       "s": 51.94,
+       "e": 52.91
+      },
+      {
+       "w": "I",
+       "s": 52.91,
+       "e": 53.1
+      },
+      {
+       "w": "think",
+       "s": 53.1,
+       "e": 54.07
+      },
+      {
+       "w": "he",
+       "s": 54.07,
+       "e": 54.46
+      },
+      {
+       "w": "was",
+       "s": 54.46,
+       "e": 55.04
+      },
+      {
+       "w": "on",
+       "s": 55.04,
+       "e": 55.43
+      },
+      {
+       "w": "drugs",
+       "s": 55.43,
+       "e": 56.4
+      }
+     ]
+    },
+    {
+     "t": 56.5,
+     "end": 64.5,
+     "singers": [
+      "olivia"
+     ],
+     "text": "He wasn't smart or funny, I convinced myself he was",
+     "words": [
+      {
+       "w": "He",
+       "s": 56.5,
+       "e": 56.9
+      },
+      {
+       "w": "wasn't",
+       "s": 56.9,
+       "e": 57.9
+      },
+      {
+       "w": "smart",
+       "s": 57.9,
+       "e": 58.9
+      },
+      {
+       "w": "or",
+       "s": 58.9,
+       "e": 59.3
+      },
+      {
+       "w": "funny,",
+       "s": 59.3,
+       "e": 60.3
+      },
+      {
+       "w": "I",
+       "s": 60.3,
+       "e": 60.5
+      },
+      {
+       "w": "convinced",
+       "s": 60.5,
+       "e": 62.3
+      },
+      {
+       "w": "myself",
+       "s": 62.3,
+       "e": 63.5
+      },
+      {
+       "w": "he",
+       "s": 63.5,
+       "e": 63.9
+      },
+      {
+       "w": "was",
+       "s": 63.9,
+       "e": 64.5
+      }
+     ]
+    },
+    {
+     "t": 64.7,
+     "end": 71.2,
+     "singers": [
+      "olivia"
+     ],
+     "text": "He had a great apartment and a car his parents bought",
+     "words": [
+      {
+       "w": "He",
+       "s": 64.7,
+       "e": 65.0
+      },
+      {
+       "w": "had",
+       "s": 65.0,
+       "e": 65.46
+      },
+      {
+       "w": "a",
+       "s": 65.46,
+       "e": 65.61
+      },
+      {
+       "w": "great",
+       "s": 65.61,
+       "e": 66.36
+      },
+      {
+       "w": "apartment",
+       "s": 66.36,
+       "e": 67.72
+      },
+      {
+       "w": "and",
+       "s": 67.72,
+       "e": 68.18
+      },
+      {
+       "w": "a",
+       "s": 68.18,
+       "e": 68.33
+      },
+      {
+       "w": "car",
+       "s": 68.33,
+       "e": 68.78
+      },
+      {
+       "w": "his",
+       "s": 68.78,
+       "e": 69.23
+      },
+      {
+       "w": "parents",
+       "s": 69.23,
+       "e": 70.29
+      },
+      {
+       "w": "bought",
+       "s": 70.29,
+       "e": 71.2
+      }
+     ]
+    },
+    {
+     "t": 71.4,
+     "end": 77.3,
+     "singers": [
+      "olivia"
+     ],
+     "text": "I thought that he was perfect, and now his number's blocked",
+     "words": [
+      {
+       "w": "I",
+       "s": 71.4,
+       "e": 71.53
+      },
+      {
+       "w": "thought",
+       "s": 71.53,
+       "e": 72.4
+      },
+      {
+       "w": "that",
+       "s": 72.4,
+       "e": 72.91
+      },
+      {
+       "w": "he",
+       "s": 72.91,
+       "e": 73.16
+      },
+      {
+       "w": "was",
+       "s": 73.16,
+       "e": 73.53
+      },
+      {
+       "w": "perfect,",
+       "s": 73.53,
+       "e": 74.41
+      },
+      {
+       "w": "and",
+       "s": 74.41,
+       "e": 74.79
+      },
+      {
+       "w": "now",
+       "s": 74.79,
+       "e": 75.17
+      },
+      {
+       "w": "his",
+       "s": 75.17,
+       "e": 75.54
+      },
+      {
+       "w": "number's",
+       "s": 75.54,
+       "e": 76.42
+      },
+      {
+       "w": "blocked",
+       "s": 76.42,
+       "e": 77.3
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pre1",
+   "label": "Pre-Chorus",
+   "chapter": 1,
+   "assumed": true,
+   "lines": [
+    {
+     "t": 77.5,
+     "end": 79.6,
+     "singers": [
+      "olivia"
+     ],
+     "text": "Took a couple months (Took a couple months)",
+     "words": [
+      {
+       "w": "Took",
+       "s": 77.5,
+       "e": 77.75
+      },
+      {
+       "w": "a",
+       "s": 77.75,
+       "e": 77.81
+      },
+      {
+       "w": "couple",
+       "s": 77.81,
+       "e": 78.18
+      },
+      {
+       "w": "months",
+       "s": 78.18,
+       "e": 78.55
+      },
+      {
+       "w": "(Took",
+       "s": 78.55,
+       "e": 78.8
+      },
+      {
+       "w": "a",
+       "s": 78.8,
+       "e": 78.86
+      },
+      {
+       "w": "couple",
+       "s": 78.86,
+       "e": 79.23
+      },
+      {
+       "w": "months)",
+       "s": 79.23,
+       "e": 79.6
+      }
+     ]
+    },
+    {
+     "t": 79.6,
+     "end": 83.0,
+     "singers": [
+      "olivia"
+     ],
+     "text": "But now I am secure (Now I am secure)",
+     "words": [
+      {
+       "w": "But",
+       "s": 79.6,
+       "e": 79.98
+      },
+      {
+       "w": "now",
+       "s": 79.98,
+       "e": 80.36
+      },
+      {
+       "w": "I",
+       "s": 80.36,
+       "e": 80.48
+      },
+      {
+       "w": "am",
+       "s": 80.48,
+       "e": 80.73
+      },
+      {
+       "w": "secure",
+       "s": 80.73,
+       "e": 81.49
+      },
+      {
+       "w": "(Now",
+       "s": 81.49,
+       "e": 81.87
+      },
+      {
+       "w": "I",
+       "s": 81.87,
+       "e": 81.99
+      },
+      {
+       "w": "am",
+       "s": 81.99,
+       "e": 82.24
+      },
+      {
+       "w": "secure)",
+       "s": 82.24,
+       "e": 83.0
+      }
+     ]
+    },
+    {
+     "t": 83.0,
+     "end": 86.4,
+     "singers": [
+      "olivia"
+     ],
+     "text": "I am so evolved (I am so evolved)",
+     "words": [
+      {
+       "w": "I",
+       "s": 83.0,
+       "e": 83.14
+      },
+      {
+       "w": "am",
+       "s": 83.14,
+       "e": 83.42
+      },
+      {
+       "w": "so",
+       "s": 83.42,
+       "e": 83.71
+      },
+      {
+       "w": "evolved",
+       "s": 83.71,
+       "e": 84.7
+      },
+      {
+       "w": "(I",
+       "s": 84.7,
+       "e": 84.84
+      },
+      {
+       "w": "am",
+       "s": 84.84,
+       "e": 85.12
+      },
+      {
+       "w": "so",
+       "s": 85.12,
+       "e": 85.41
+      },
+      {
+       "w": "evolved)",
+       "s": 85.41,
+       "e": 86.4
+      }
+     ]
+    },
+    {
+     "t": 86.5,
+     "end": 92.6,
+     "singers": [
+      "olivia"
+     ],
+     "text": "Now I ask for more and more and more and more and more",
+     "words": [
+      {
+       "w": "Now",
+       "s": 86.5,
+       "e": 86.94
+      },
+      {
+       "w": "I",
+       "s": 86.94,
+       "e": 87.08
+      },
+      {
+       "w": "ask",
+       "s": 87.08,
+       "e": 87.52
+      },
+      {
+       "w": "for",
+       "s": 87.52,
+       "e": 87.95
+      },
+      {
+       "w": "more",
+       "s": 87.95,
+       "e": 88.53
+      },
+      {
+       "w": "and",
+       "s": 88.53,
+       "e": 88.97
+      },
+      {
+       "w": "more",
+       "s": 88.97,
+       "e": 89.55
+      },
+      {
+       "w": "and",
+       "s": 89.55,
+       "e": 89.99
+      },
+      {
+       "w": "more",
+       "s": 89.99,
+       "e": 90.57
+      },
+      {
+       "w": "and",
+       "s": 90.57,
+       "e": 91.0
+      },
+      {
+       "w": "more",
+       "s": 91.0,
+       "e": 91.58
+      },
+      {
+       "w": "and",
+       "s": 91.58,
+       "e": 92.02
+      },
+      {
+       "w": "more",
+       "s": 92.02,
+       "e": 92.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chorus1",
+   "label": "Chorus",
+   "chapter": 1,
+   "lines": [
+    {
+     "t": 92.7,
+     "end": 96.6,
+     "singers": [
+      "olivia"
+     ],
+     "text": "I won't settle for a guy with a fake job",
+     "words": [
+      {
+       "w": "I",
+       "s": 92.7,
+       "e": 92.83
+      },
+      {
+       "w": "won't",
+       "s": 92.83,
+       "e": 93.35
+      },
+      {
+       "w": "settle",
+       "s": 93.35,
+       "e": 94.13
+      },
+      {
+       "w": "for",
+       "s": 94.13,
+       "e": 94.52
+      },
+      {
+       "w": "a",
+       "s": 94.52,
+       "e": 94.65
+      },
+      {
+       "w": "guy",
+       "s": 94.65,
+       "e": 95.04
+      },
+      {
+       "w": "with",
+       "s": 95.04,
+       "e": 95.56
+      },
+      {
+       "w": "a",
+       "s": 95.56,
+       "e": 95.69
+      },
+      {
+       "w": "fake",
+       "s": 95.69,
+       "e": 96.21
+      },
+      {
+       "w": "job",
+       "s": 96.21,
+       "e": 96.6
+      }
+     ]
+    },
+    {
+     "t": 96.9,
+     "end": 100.2,
+     "singers": [
+      "olivia"
+     ],
+     "text": "They seem so desperate for loving, but, baby, I'm not",
+     "words": [
+      {
+       "w": "They",
+       "s": 96.9,
+       "e": 97.23
+      },
+      {
+       "w": "seem",
+       "s": 97.23,
+       "e": 97.56
+      },
+      {
+       "w": "so",
+       "s": 97.56,
+       "e": 97.73
+      },
+      {
+       "w": "desperate",
+       "s": 97.73,
+       "e": 98.47
+      },
+      {
+       "w": "for",
+       "s": 98.47,
+       "e": 98.72
+      },
+      {
+       "w": "loving,",
+       "s": 98.72,
+       "e": 99.21
+      },
+      {
+       "w": "but,",
+       "s": 99.21,
+       "e": 99.46
+      },
+      {
+       "w": "baby,",
+       "s": 99.46,
+       "e": 99.79
+      },
+      {
+       "w": "I'm",
+       "s": 99.79,
+       "e": 99.95
+      },
+      {
+       "w": "not",
+       "s": 99.95,
+       "e": 100.2
+      }
+     ]
+    },
+    {
+     "t": 100.3,
+     "end": 103.7,
+     "singers": [
+      "olivia"
+     ],
+     "text": "Gave my heart with zero stipulations",
+     "words": [
+      {
+       "w": "Gave",
+       "s": 100.3,
+       "e": 100.74
+      },
+      {
+       "w": "my",
+       "s": 100.74,
+       "e": 100.96
+      },
+      {
+       "w": "heart",
+       "s": 100.96,
+       "e": 101.51
+      },
+      {
+       "w": "with",
+       "s": 101.51,
+       "e": 101.95
+      },
+      {
+       "w": "zero",
+       "s": 101.95,
+       "e": 102.38
+      },
+      {
+       "w": "stipulations",
+       "s": 102.38,
+       "e": 103.7
+      }
+     ]
+    },
+    {
+     "t": 103.8,
+     "end": 106.9,
+     "singers": [
+      "olivia"
+     ],
+     "text": "Now I take careful consideration",
+     "words": [
+      {
+       "w": "Now",
+       "s": 103.8,
+       "e": 104.13
+      },
+      {
+       "w": "I",
+       "s": 104.13,
+       "e": 104.24
+      },
+      {
+       "w": "take",
+       "s": 104.24,
+       "e": 104.69
+      },
+      {
+       "w": "careful",
+       "s": 104.69,
+       "e": 105.46
+      },
+      {
+       "w": "consideration",
+       "s": 105.46,
+       "e": 106.9
+      }
+     ]
+    },
+    {
+     "t": 107.0,
+     "end": 111.1,
+     "singers": [
+      "olivia"
+     ],
+     "text": "I'm not kissing any boy that is passive",
+     "words": [
+      {
+       "w": "I'm",
+       "s": 107.0,
+       "e": 107.26
+      },
+      {
+       "w": "not",
+       "s": 107.26,
+       "e": 107.66
+      },
+      {
+       "w": "kissing",
+       "s": 107.66,
+       "e": 108.59
+      },
+      {
+       "w": "any",
+       "s": 108.59,
+       "e": 108.98
+      },
+      {
+       "w": "boy",
+       "s": 108.98,
+       "e": 109.38
+      },
+      {
+       "w": "that",
+       "s": 109.38,
+       "e": 109.91
+      },
+      {
+       "w": "is",
+       "s": 109.91,
+       "e": 110.17
+      },
+      {
+       "w": "passive",
+       "s": 110.17,
+       "e": 111.1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "verse2",
+   "label": "Verse 2",
+   "chapter": 3,
+   "lines": [
+    {
+     "t": 154.3,
+     "end": 160.8,
+     "singers": [
+      "chappell"
+     ],
+     "text": "I took her to a concert, front row, thought it'd be fun",
+     "words": [
+      {
+       "w": "I",
+       "s": 154.3,
+       "e": 154.46
+      },
+      {
+       "w": "took",
+       "s": 154.46,
+       "e": 155.09
+      },
+      {
+       "w": "her",
+       "s": 155.09,
+       "e": 155.57
+      },
+      {
+       "w": "to",
+       "s": 155.57,
+       "e": 155.89
+      },
+      {
+       "w": "a",
+       "s": 155.89,
+       "e": 156.04
+      },
+      {
+       "w": "concert,",
+       "s": 156.04,
+       "e": 157.15
+      },
+      {
+       "w": "front",
+       "s": 157.15,
+       "e": 157.95
+      },
+      {
+       "w": "row,",
+       "s": 157.95,
+       "e": 158.42
+      },
+      {
+       "w": "thought",
+       "s": 158.42,
+       "e": 159.53
+      },
+      {
+       "w": "it'd",
+       "s": 159.53,
+       "e": 160.01
+      },
+      {
+       "w": "be",
+       "s": 160.01,
+       "e": 160.32
+      },
+      {
+       "w": "fun",
+       "s": 160.32,
+       "e": 160.8
+      }
+     ]
+    },
+    {
+     "t": 160.9,
+     "end": 168.0,
+     "singers": [
+      "chappell"
+     ],
+     "text": "Her hand moving up my skirt, new piercing on her tongue",
+     "words": [
+      {
+       "w": "Her",
+       "s": 160.9,
+       "e": 161.38
+      },
+      {
+       "w": "hand",
+       "s": 161.38,
+       "e": 162.03
+      },
+      {
+       "w": "moving",
+       "s": 162.03,
+       "e": 163.0
+      },
+      {
+       "w": "up",
+       "s": 163.0,
+       "e": 163.32
+      },
+      {
+       "w": "my",
+       "s": 163.32,
+       "e": 163.64
+      },
+      {
+       "w": "skirt,",
+       "s": 163.64,
+       "e": 164.45
+      },
+      {
+       "w": "new",
+       "s": 164.45,
+       "e": 164.93
+      },
+      {
+       "w": "piercing",
+       "s": 164.93,
+       "e": 166.22
+      },
+      {
+       "w": "on",
+       "s": 166.22,
+       "e": 166.55
+      },
+      {
+       "w": "her",
+       "s": 166.55,
+       "e": 167.03
+      },
+      {
+       "w": "tongue",
+       "s": 167.03,
+       "e": 168.0
+      }
+     ]
+    },
+    {
+     "t": 168.2,
+     "end": 175.9,
+     "singers": [
+      "chappell"
+     ],
+     "text": "She said she'd call me later, that was three weeks ago",
+     "words": [
+      {
+       "w": "She",
+       "s": 168.2,
+       "e": 168.75
+      },
+      {
+       "w": "said",
+       "s": 168.75,
+       "e": 169.48
+      },
+      {
+       "w": "she'd",
+       "s": 169.48,
+       "e": 170.22
+      },
+      {
+       "w": "call",
+       "s": 170.22,
+       "e": 170.95
+      },
+      {
+       "w": "me",
+       "s": 170.95,
+       "e": 171.32
+      },
+      {
+       "w": "later,",
+       "s": 171.32,
+       "e": 172.23
+      },
+      {
+       "w": "that",
+       "s": 172.23,
+       "e": 172.97
+      },
+      {
+       "w": "was",
+       "s": 172.97,
+       "e": 173.52
+      },
+      {
+       "w": "three",
+       "s": 173.52,
+       "e": 174.43
+      },
+      {
+       "w": "weeks",
+       "s": 174.43,
+       "e": 175.35
+      },
+      {
+       "w": "ago",
+       "s": 175.35,
+       "e": 175.9
+      }
+     ]
+    },
+    {
+     "t": 176.2,
+     "end": 181.9,
+     "singers": [
+      "chappell"
+     ],
+     "text": "Classic L.A. behavior, she could've just said no",
+     "words": [
+      {
+       "w": "Classic",
+       "s": 176.2,
+       "e": 177.28
+      },
+      {
+       "w": "L.A.",
+       "s": 177.28,
+       "e": 177.59
+      },
+      {
+       "w": "behavior,",
+       "s": 177.59,
+       "e": 178.82
+      },
+      {
+       "w": "she",
+       "s": 178.82,
+       "e": 179.28
+      },
+      {
+       "w": "could've",
+       "s": 179.28,
+       "e": 180.36
+      },
+      {
+       "w": "just",
+       "s": 180.36,
+       "e": 180.98
+      },
+      {
+       "w": "said",
+       "s": 180.98,
+       "e": 181.59
+      },
+      {
+       "w": "no",
+       "s": 181.59,
+       "e": 181.9
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pre2",
+   "label": "Pre-Chorus",
+   "chapter": 3,
+   "assumed": true,
+   "lines": [
+    {
+     "t": 182.2,
+     "end": 185.0,
+     "singers": [
+      "chappell"
+     ],
+     "text": "But in a couple months (In a couple months)",
+     "words": [
+      {
+       "w": "But",
+       "s": 182.2,
+       "e": 182.45
+      },
+      {
+       "w": "in",
+       "s": 182.45,
+       "e": 182.62
+      },
+      {
+       "w": "a",
+       "s": 182.62,
+       "e": 182.71
+      },
+      {
+       "w": "couple",
+       "s": 182.71,
+       "e": 183.22
+      },
+      {
+       "w": "months",
+       "s": 183.22,
+       "e": 183.73
+      },
+      {
+       "w": "(In",
+       "s": 183.73,
+       "e": 183.9
+      },
+      {
+       "w": "a",
+       "s": 183.9,
+       "e": 183.98
+      },
+      {
+       "w": "couple",
+       "s": 183.98,
+       "e": 184.49
+      },
+      {
+       "w": "months)",
+       "s": 184.49,
+       "e": 185.0
+      }
+     ]
+    },
+    {
+     "t": 185.1,
+     "end": 188.8,
+     "singers": [
+      "chappell"
+     ],
+     "text": "This love will be procured (A love will be procured)",
+     "words": [
+      {
+       "w": "This",
+       "s": 185.1,
+       "e": 185.46
+      },
+      {
+       "w": "love",
+       "s": 185.46,
+       "e": 185.82
+      },
+      {
+       "w": "will",
+       "s": 185.82,
+       "e": 186.18
+      },
+      {
+       "w": "be",
+       "s": 186.18,
+       "e": 186.36
+      },
+      {
+       "w": "procured",
+       "s": 186.36,
+       "e": 187.09
+      },
+      {
+       "w": "(A",
+       "s": 187.09,
+       "e": 187.18
+      },
+      {
+       "w": "love",
+       "s": 187.18,
+       "e": 187.54
+      },
+      {
+       "w": "will",
+       "s": 187.54,
+       "e": 187.9
+      },
+      {
+       "w": "be",
+       "s": 187.9,
+       "e": 188.08
+      },
+      {
+       "w": "procured)",
+       "s": 188.08,
+       "e": 188.8
+      }
+     ]
+    },
+    {
+     "t": 188.9,
+     "end": 190.9,
+     "singers": [
+      "chappell"
+     ],
+     "text": "She will be evolved (She will be evolved)",
+     "words": [
+      {
+       "w": "She",
+       "s": 188.9,
+       "e": 189.09
+      },
+      {
+       "w": "will",
+       "s": 189.09,
+       "e": 189.34
+      },
+      {
+       "w": "be",
+       "s": 189.34,
+       "e": 189.46
+      },
+      {
+       "w": "evolved",
+       "s": 189.46,
+       "e": 189.9
+      },
+      {
+       "w": "(She",
+       "s": 189.9,
+       "e": 190.09
+      },
+      {
+       "w": "will",
+       "s": 190.09,
+       "e": 190.34
+      },
+      {
+       "w": "be",
+       "s": 190.34,
+       "e": 190.46
+      },
+      {
+       "w": "evolved)",
+       "s": 190.46,
+       "e": 190.9
+      }
+     ]
+    },
+    {
+     "t": 191.0,
+     "end": 196.9,
+     "singers": [
+      "chappell"
+     ],
+     "text": "And I will be adored, adored, adored, adored, adored",
+     "words": [
+      {
+       "w": "And",
+       "s": 191.0,
+       "e": 191.44
+      },
+      {
+       "w": "I",
+       "s": 191.44,
+       "e": 191.59
+      },
+      {
+       "w": "will",
+       "s": 191.59,
+       "e": 192.18
+      },
+      {
+       "w": "be",
+       "s": 192.18,
+       "e": 192.47
+      },
+      {
+       "w": "adored,",
+       "s": 192.47,
+       "e": 193.36
+      },
+      {
+       "w": "adored,",
+       "s": 193.36,
+       "e": 194.24
+      },
+      {
+       "w": "adored,",
+       "s": 194.24,
+       "e": 195.13
+      },
+      {
+       "w": "adored,",
+       "s": 195.13,
+       "e": 196.01
+      },
+      {
+       "w": "adored",
+       "s": 196.01,
+       "e": 196.9
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chorus2",
+   "label": "Chorus",
+   "chapter": 3,
+   "lines": [
+    {
+     "t": 197.1,
+     "end": 200.9,
+     "singers": [
+      "chappell"
+     ],
+     "text": "I won't settle for a girl with a fake job",
+     "words": [
+      {
+       "w": "I",
+       "s": 197.1,
+       "e": 197.22
+      },
+      {
+       "w": "won't",
+       "s": 197.22,
+       "e": 197.71
+      },
+      {
+       "w": "settle",
+       "s": 197.71,
+       "e": 198.45
+      },
+      {
+       "w": "for",
+       "s": 198.45,
+       "e": 198.82
+      },
+      {
+       "w": "a",
+       "s": 198.82,
+       "e": 198.94
+      },
+      {
+       "w": "girl",
+       "s": 198.94,
+       "e": 199.43
+      },
+      {
+       "w": "with",
+       "s": 199.43,
+       "e": 199.92
+      },
+      {
+       "w": "a",
+       "s": 199.92,
+       "e": 200.04
+      },
+      {
+       "w": "fake",
+       "s": 200.04,
+       "e": 200.53
+      },
+      {
+       "w": "job",
+       "s": 200.53,
+       "e": 200.9
+      }
+     ]
+    },
+    {
+     "t": 201.3,
+     "end": 204.7,
+     "singers": [
+      "chappell"
+     ],
+     "text": "They seem so desperate for loving, but, baby, I'm not",
+     "words": [
+      {
+       "w": "They",
+       "s": 201.3,
+       "e": 201.64
+      },
+      {
+       "w": "seem",
+       "s": 201.64,
+       "e": 201.98
+      },
+      {
+       "w": "so",
+       "s": 201.98,
+       "e": 202.15
+      },
+      {
+       "w": "desperate",
+       "s": 202.15,
+       "e": 202.91
+      },
+      {
+       "w": "for",
+       "s": 202.91,
+       "e": 203.17
+      },
+      {
+       "w": "loving,",
+       "s": 203.17,
+       "e": 203.68
+      },
+      {
+       "w": "but,",
+       "s": 203.68,
+       "e": 203.93
+      },
+      {
+       "w": "baby,",
+       "s": 203.93,
+       "e": 204.27
+      },
+      {
+       "w": "I'm",
+       "s": 204.27,
+       "e": 204.44
+      },
+      {
+       "w": "not",
+       "s": 204.44,
+       "e": 204.7
+      }
+     ]
+    },
+    {
+     "t": 204.9,
+     "end": 208.1,
+     "singers": [
+      "chappell"
+     ],
+     "text": "Gave my heart with zero stipulations",
+     "words": [
+      {
+       "w": "Gave",
+       "s": 204.9,
+       "e": 205.31
+      },
+      {
+       "w": "my",
+       "s": 205.31,
+       "e": 205.52
+      },
+      {
+       "w": "heart",
+       "s": 205.52,
+       "e": 206.04
+      },
+      {
+       "w": "with",
+       "s": 206.04,
+       "e": 206.45
+      },
+      {
+       "w": "zero",
+       "s": 206.45,
+       "e": 206.86
+      },
+      {
+       "w": "stipulations",
+       "s": 206.86,
+       "e": 208.1
+      }
+     ]
+    },
+    {
+     "t": 208.3,
+     "end": 211.3,
+     "singers": [
+      "chappell"
+     ],
+     "text": "Now I take careful consideration",
+     "words": [
+      {
+       "w": "Now",
+       "s": 208.3,
+       "e": 208.62
+      },
+      {
+       "w": "I",
+       "s": 208.62,
+       "e": 208.73
+      },
+      {
+       "w": "take",
+       "s": 208.73,
+       "e": 209.16
+      },
+      {
+       "w": "careful",
+       "s": 209.16,
+       "e": 209.91
+      },
+      {
+       "w": "consideration",
+       "s": 209.91,
+       "e": 211.3
+      }
+     ]
+    },
+    {
+     "t": 211.5,
+     "end": 215.4,
+     "singers": [
+      "chappell"
+     ],
+     "text": "I'm not kissing any girl that is passive",
+     "words": [
+      {
+       "w": "I'm",
+       "s": 211.5,
+       "e": 211.74
+      },
+      {
+       "w": "not",
+       "s": 211.74,
+       "e": 212.11
+      },
+      {
+       "w": "kissing",
+       "s": 212.11,
+       "e": 212.96
+      },
+      {
+       "w": "any",
+       "s": 212.96,
+       "e": 213.33
+      },
+      {
+       "w": "girl",
+       "s": 213.33,
+       "e": 213.82
+      },
+      {
+       "w": "that",
+       "s": 213.82,
+       "e": 214.3
+      },
+      {
+       "w": "is",
+       "s": 214.3,
+       "e": 214.55
+      },
+      {
+       "w": "passive",
+       "s": 214.55,
+       "e": 215.4
+      }
+     ]
+    },
+    {
+     "t": 215.6,
+     "end": 219.1,
+     "singers": [
+      "chappell"
+     ],
+     "text": "Their indecision is painfully unattractive",
+     "words": [
+      {
+       "w": "Their",
+       "s": 215.6,
+       "e": 216.06
+      },
+      {
+       "w": "indecision",
+       "s": 216.06,
+       "e": 216.98
+      },
+      {
+       "w": "is",
+       "s": 216.98,
+       "e": 217.17
+      },
+      {
+       "w": "painfully",
+       "s": 217.17,
+       "e": 217.99
+      },
+      {
+       "w": "unattractive",
+       "s": 217.99,
+       "e": 219.1
+      }
+     ]
+    },
+    {
+     "t": 219.3,
+     "end": 222.4,
+     "singers": [
+      "chappell"
+     ],
+     "text": "Past mistakes are just new information",
+     "words": [
+      {
+       "w": "Past",
+       "s": 219.3,
+       "e": 219.68
+      },
+      {
+       "w": "mistakes",
+       "s": 219.68,
+       "e": 220.43
+      },
+      {
+       "w": "are",
+       "s": 220.43,
+       "e": 220.71
+      },
+      {
+       "w": "just",
+       "s": 220.71,
+       "e": 221.08
+      },
+      {
+       "w": "new",
+       "s": 221.08,
+       "e": 221.37
+      },
+      {
+       "w": "information",
+       "s": 221.37,
+       "e": 222.4
+      }
+     ]
+    },
+    {
+     "t": 222.6,
+     "end": 226.2,
+     "singers": [
+      "chappell"
+     ],
+     "text": "These days, I've got expectations",
+     "words": [
+      {
+       "w": "These",
+       "s": 222.6,
+       "e": 223.27
+      },
+      {
+       "w": "days,",
+       "s": 223.27,
+       "e": 223.8
+      },
+      {
+       "w": "I've",
+       "s": 223.8,
+       "e": 224.2
+      },
+      {
+       "w": "got",
+       "s": 224.2,
+       "e": 224.6
+      },
+      {
+       "w": "expectations",
+       "s": 224.6,
+       "e": 226.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bridge",
+   "label": "Bridge",
+   "chapter": 4,
+   "lines": [
+    {
+     "t": 226.4,
+     "end": 229.8,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "I've got big expectations",
+     "words": [
+      {
+       "w": "I've",
+       "s": 226.4,
+       "e": 226.89
+      },
+      {
+       "w": "got",
+       "s": 226.89,
+       "e": 227.37
+      },
+      {
+       "w": "big",
+       "s": 227.37,
+       "e": 227.86
+      },
+      {
+       "w": "expectations",
+       "s": 227.86,
+       "e": 229.8
+      }
+     ]
+    },
+    {
+     "t": 230.0,
+     "end": 233.4,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "I've got real big expectations",
+     "words": [
+      {
+       "w": "I've",
+       "s": 230.0,
+       "e": 230.41
+      },
+      {
+       "w": "got",
+       "s": 230.41,
+       "e": 230.82
+      },
+      {
+       "w": "real",
+       "s": 230.82,
+       "e": 231.36
+      },
+      {
+       "w": "big",
+       "s": 231.36,
+       "e": 231.77
+      },
+      {
+       "w": "expectations",
+       "s": 231.77,
+       "e": 233.4
+      }
+     ]
+    },
+    {
+     "t": 233.6,
+     "end": 237.0,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "I've got big expectations",
+     "words": [
+      {
+       "w": "I've",
+       "s": 233.6,
+       "e": 234.09
+      },
+      {
+       "w": "got",
+       "s": 234.09,
+       "e": 234.57
+      },
+      {
+       "w": "big",
+       "s": 234.57,
+       "e": 235.06
+      },
+      {
+       "w": "expectations",
+       "s": 235.06,
+       "e": 237.0
+      }
+     ]
+    },
+    {
+     "t": 237.2,
+     "end": 240.6,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "I've got real big expectations",
+     "words": [
+      {
+       "w": "I've",
+       "s": 237.2,
+       "e": 237.61
+      },
+      {
+       "w": "got",
+       "s": 237.61,
+       "e": 238.02
+      },
+      {
+       "w": "real",
+       "s": 238.02,
+       "e": 238.56
+      },
+      {
+       "w": "big",
+       "s": 238.56,
+       "e": 238.97
+      },
+      {
+       "w": "expectations",
+       "s": 238.97,
+       "e": 240.6
+      }
+     ]
+    },
+    {
+     "t": 240.8,
+     "end": 244.2,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "She's got big expectations",
+     "words": [
+      {
+       "w": "She's",
+       "s": 240.8,
+       "e": 241.42
+      },
+      {
+       "w": "got",
+       "s": 241.42,
+       "e": 241.88
+      },
+      {
+       "w": "big",
+       "s": 241.88,
+       "e": 242.35
+      },
+      {
+       "w": "expectations",
+       "s": 242.35,
+       "e": 244.2
+      }
+     ]
+    },
+    {
+     "t": 244.4,
+     "end": 247.8,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "She's got real big expectations",
+     "words": [
+      {
+       "w": "She's",
+       "s": 244.4,
+       "e": 244.92
+      },
+      {
+       "w": "got",
+       "s": 244.92,
+       "e": 245.32
+      },
+      {
+       "w": "real",
+       "s": 245.32,
+       "e": 245.84
+      },
+      {
+       "w": "big",
+       "s": 245.84,
+       "e": 246.23
+      },
+      {
+       "w": "expectations",
+       "s": 246.23,
+       "e": 247.8
+      }
+     ]
+    },
+    {
+     "t": 248.0,
+     "end": 251.4,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "She's got big expectations",
+     "words": [
+      {
+       "w": "She's",
+       "s": 248.0,
+       "e": 248.62
+      },
+      {
+       "w": "got",
+       "s": 248.62,
+       "e": 249.08
+      },
+      {
+       "w": "big",
+       "s": 249.08,
+       "e": 249.55
+      },
+      {
+       "w": "expectations",
+       "s": 249.55,
+       "e": 251.4
+      }
+     ]
+    },
+    {
+     "t": 251.6,
+     "end": 255.0,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "She's got real big expectations",
+     "words": [
+      {
+       "w": "She's",
+       "s": 251.6,
+       "e": 252.12
+      },
+      {
+       "w": "got",
+       "s": 252.12,
+       "e": 252.52
+      },
+      {
+       "w": "real",
+       "s": 252.52,
+       "e": 253.04
+      },
+      {
+       "w": "big",
+       "s": 253.04,
+       "e": 253.43
+      },
+      {
+       "w": "expectations",
+       "s": 253.43,
+       "e": 255.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chorus3",
+   "label": "Final Chorus",
+   "chapter": 5,
+   "assumed": true,
+   "lines": [
+    {
+     "t": 255.1,
+     "end": 258.9,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "I won't settle for a guy with a fake job",
+     "words": [
+      {
+       "w": "I",
+       "s": 255.1,
+       "e": 255.23
+      },
+      {
+       "w": "won't",
+       "s": 255.23,
+       "e": 255.73
+      },
+      {
+       "w": "settle",
+       "s": 255.73,
+       "e": 256.49
+      },
+      {
+       "w": "for",
+       "s": 256.49,
+       "e": 256.87
+      },
+      {
+       "w": "a",
+       "s": 256.87,
+       "e": 257.0
+      },
+      {
+       "w": "guy",
+       "s": 257.0,
+       "e": 257.38
+      },
+      {
+       "w": "with",
+       "s": 257.38,
+       "e": 257.89
+      },
+      {
+       "w": "a",
+       "s": 257.89,
+       "e": 258.01
+      },
+      {
+       "w": "fake",
+       "s": 258.01,
+       "e": 258.52
+      },
+      {
+       "w": "job",
+       "s": 258.52,
+       "e": 258.9
+      }
+     ]
+    },
+    {
+     "t": 259.1,
+     "end": 263.0,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "They seem so desperate for loving, but, baby, I'm not",
+     "words": [
+      {
+       "w": "They",
+       "s": 259.1,
+       "e": 259.49
+      },
+      {
+       "w": "seem",
+       "s": 259.49,
+       "e": 259.88
+      },
+      {
+       "w": "so",
+       "s": 259.88,
+       "e": 260.07
+      },
+      {
+       "w": "desperate",
+       "s": 260.07,
+       "e": 260.95
+      },
+      {
+       "w": "for",
+       "s": 260.95,
+       "e": 261.25
+      },
+      {
+       "w": "loving,",
+       "s": 261.25,
+       "e": 261.83
+      },
+      {
+       "w": "but,",
+       "s": 261.83,
+       "e": 262.12
+      },
+      {
+       "w": "baby,",
+       "s": 262.12,
+       "e": 262.51
+      },
+      {
+       "w": "I'm",
+       "s": 262.51,
+       "e": 262.71
+      },
+      {
+       "w": "not",
+       "s": 262.71,
+       "e": 263.0
+      }
+     ]
+    },
+    {
+     "t": 263.2,
+     "end": 266.0,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "Gave my heart with zero stipulations",
+     "words": [
+      {
+       "w": "Gave",
+       "s": 263.2,
+       "e": 263.56
+      },
+      {
+       "w": "my",
+       "s": 263.56,
+       "e": 263.74
+      },
+      {
+       "w": "heart",
+       "s": 263.74,
+       "e": 264.19
+      },
+      {
+       "w": "with",
+       "s": 264.19,
+       "e": 264.55
+      },
+      {
+       "w": "zero",
+       "s": 264.55,
+       "e": 264.92
+      },
+      {
+       "w": "stipulations",
+       "s": 264.92,
+       "e": 266.0
+      }
+     ]
+    },
+    {
+     "t": 266.2,
+     "end": 269.0,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "Now I take careful consideration",
+     "words": [
+      {
+       "w": "Now",
+       "s": 266.2,
+       "e": 266.5
+      },
+      {
+       "w": "I",
+       "s": 266.5,
+       "e": 266.6
+      },
+      {
+       "w": "take",
+       "s": 266.6,
+       "e": 267.0
+      },
+      {
+       "w": "careful",
+       "s": 267.0,
+       "e": 267.7
+      },
+      {
+       "w": "consideration",
+       "s": 267.7,
+       "e": 269.0
+      }
+     ]
+    },
+    {
+     "t": 269.2,
+     "end": 274.4,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "I'm not kissing any boy that is passive",
+     "words": [
+      {
+       "w": "I'm",
+       "s": 269.2,
+       "e": 269.54
+      },
+      {
+       "w": "not",
+       "s": 269.54,
+       "e": 270.04
+      },
+      {
+       "w": "kissing",
+       "s": 270.04,
+       "e": 271.21
+      },
+      {
+       "w": "any",
+       "s": 271.21,
+       "e": 271.72
+      },
+      {
+       "w": "boy",
+       "s": 271.72,
+       "e": 272.22
+      },
+      {
+       "w": "that",
+       "s": 272.22,
+       "e": 272.89
+      },
+      {
+       "w": "is",
+       "s": 272.89,
+       "e": 273.23
+      },
+      {
+       "w": "passive",
+       "s": 273.23,
+       "e": 274.4
+      }
+     ]
+    },
+    {
+     "t": 274.5,
+     "end": 276.9,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "Their indecision is painfully unattractive",
+     "words": [
+      {
+       "w": "Their",
+       "s": 274.5,
+       "e": 274.82
+      },
+      {
+       "w": "indecision",
+       "s": 274.82,
+       "e": 275.45
+      },
+      {
+       "w": "is",
+       "s": 275.45,
+       "e": 275.57
+      },
+      {
+       "w": "painfully",
+       "s": 275.57,
+       "e": 276.14
+      },
+      {
+       "w": "unattractive",
+       "s": 276.14,
+       "e": 276.9
+      }
+     ]
+    },
+    {
+     "t": 277.0,
+     "end": 280.6,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "Past mistakes are just new information",
+     "words": [
+      {
+       "w": "Past",
+       "s": 277.0,
+       "e": 277.44
+      },
+      {
+       "w": "mistakes",
+       "s": 277.44,
+       "e": 278.31
+      },
+      {
+       "w": "are",
+       "s": 278.31,
+       "e": 278.64
+      },
+      {
+       "w": "just",
+       "s": 278.64,
+       "e": 279.07
+      },
+      {
+       "w": "new",
+       "s": 279.07,
+       "e": 279.4
+      },
+      {
+       "w": "information",
+       "s": 279.4,
+       "e": 280.6
+      }
+     ]
+    },
+    {
+     "t": 280.8,
+     "end": 285.6,
+     "singers": [
+      "olivia",
+      "chappell"
+     ],
+     "text": "These days, I've got expectations",
+     "words": [
+      {
+       "w": "These",
+       "s": 280.8,
+       "e": 281.69
+      },
+      {
+       "w": "days,",
+       "s": 281.69,
+       "e": 282.4
+      },
+      {
+       "w": "I've",
+       "s": 282.4,
+       "e": 282.93
+      },
+      {
+       "w": "got",
+       "s": 282.93,
+       "e": 283.47
+      },
+      {
+       "w": "expectations",
+       "s": 283.47,
+       "e": 285.6
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "skits": [
+  {
+   "id": "intro",
+   "label": "Intro skit",
+   "a": 0.0,
+   "b": 49.7,
+   "mode": "intro",
+   "events": [
+    {
+     "t": 0.0,
+     "end": 3.3,
+     "type": "chyron",
+     "text": "OLIVIA DOES REMIXES NOW",
+     "sub": "SPECIAL PRESENTATION"
+    },
+    {
+     "t": 3.4,
+     "end": 4.7,
+     "type": "shout",
+     "text": "SETTLE DOWN, FOLKS"
+    },
+    {
+     "t": 4.8,
+     "end": 9.6,
+     "type": "title",
+     "text": "THE BIG EXPECTATIONS SHOW"
+    },
+    {
+     "t": 9.7,
+     "end": 12.7,
+     "type": "chyron",
+     "text": "WITH YOUR HOST",
+     "sub": "JOHNNY JOHNSON"
+    },
+    {
+     "t": 12.8,
+     "end": 15.5,
+     "type": "shout",
+     "text": "TONIGHT'S CONTESTANTS"
+    },
+    {
+     "t": 15.6,
+     "end": 23.7,
+     "type": "card",
+     "num": 1,
+     "text": "OLIVIA RODRIGO"
+    },
+    {
+     "t": 17.8,
+     "end": 23.7,
+     "type": "card",
+     "num": 2,
+     "text": "OLIVIA RODRIGO"
+    },
+    {
+     "t": 20.5,
+     "end": 23.7,
+     "type": "card",
+     "num": 3,
+     "text": "OLIVIA RODRIGO"
+    },
+    {
+     "t": 23.8,
+     "end": 31.2,
+     "type": "chyron",
+     "text": "NOW, YOUR HOST",
+     "sub": "JOHNNY JOHNSON"
+    },
+    {
+     "t": 31.3,
+     "end": 33.4,
+     "type": "shout",
+     "text": "SETTLE DOWN, FOLKS"
+    },
+    {
+     "t": 33.5,
+     "end": 38.0,
+     "type": "title",
+     "text": "THE BIG EXPECTATIONS SHOW"
+    },
+    {
+     "t": 38.1,
+     "end": 41.1,
+     "type": "chyron",
+     "text": "I'M YOUR HOST",
+     "sub": "JOHNNY JOHNSON"
+    },
+    {
+     "t": 41.2,
+     "end": 44.1,
+     "type": "shout",
+     "text": "MEET OUR CONTESTANTS"
+    },
+    {
+     "t": 44.2,
+     "end": 49.7,
+     "type": "chyron",
+     "text": "OLIVIA, HOW'D YOU GET HERE?",
+     "sub": "CONTESTANT #1 · OLIVIA RODRIGO"
+    }
+   ]
+  },
+  {
+   "id": "squabble",
+   "label": "Interlude skit",
+   "a": 111.2,
+   "b": 154.2,
+   "mode": "break",
+   "events": [
+    {
+     "t": 111.2,
+     "end": 121.9,
+     "type": "standby",
+     "text": "PLEASE STAND BY",
+     "sub": "WE ARE EXPERIENCING TECHNICAL DIFFICULTIES"
+    },
+    {
+     "t": 122.0,
+     "end": 129.7,
+     "type": "title",
+     "text": "SISTER SQUABBLE",
+     "sub": "AND WE'RE BACK WITH ANOTHER SPECIAL EPISODE"
+    },
+    {
+     "t": 129.8,
+     "end": 139.8,
+     "type": "chyron",
+     "text": "REIGNING CHAMPS: THE RODRIGOS",
+     "sub": "HEART-TO-HEART WITH THE ROANS"
+    },
+    {
+     "t": 139.9,
+     "end": 143.1,
+     "type": "shout",
+     "text": "CONTESTANTS, COME ON UP!"
+    },
+    {
+     "t": 143.2,
+     "end": 146.6,
+     "type": "shout",
+     "text": "ALL RIGHT. HERE WE GO."
+    },
+    {
+     "t": 146.7,
+     "end": 154.2,
+     "type": "survey",
+     "text": "WE SURVEYED 100 PEOPLE IN THE ROOM",
+     "sub": "PLACES YOU SHOULD TAKE HER",
+     "q": 150.9
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "label": "Sign-off",
+   "a": 285.9,
+   "b": 292.7,
+   "mode": "outro",
+   "events": [
+    {
+     "t": 286.0,
+     "end": 292.7,
+     "type": "signoff",
+     "text": "CAN WE DO ALL THAT AGAIN?",
+     "sub": "THANKS FOR PLAYING"
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "name": "SIGNAL",
+   "a": 0.0,
+   "b": 49.7
+  },
+  {
+   "name": "AUDITION",
+   "a": 49.7,
+   "b": 111.2
+  },
+  {
+   "name": "SISTER SQUABBLE",
+   "a": 111.2,
+   "b": 154.2
+  },
+  {
+   "name": "THE REPLY",
+   "a": 154.2,
+   "b": 226.4
+  },
+  {
+   "name": "BIG EXPECTATIONS",
+   "a": 226.4,
+   "b": 255.0
+  },
+  {
+   "name": "FINAL ROUND",
+   "a": 255.0,
+   "b": 285.9
+  },
+  {
+   "name": "SIGN-OFF",
+   "a": 285.9,
+   "b": 292.7
+  }
+ ]
+}

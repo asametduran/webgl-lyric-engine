@@ -31,6 +31,7 @@ Deterministic FFmpeg 1080p 30fps Output
 | [`goHardMeovv/`](goHardMeovv) | MEOVV – *GO HARD* (module 4: **Canvas2D Kinetic Collage Engine**). No 3D world: public-domain Muybridge plates and steam-hammer photographs are cut into frames and stepped "on twos", with film grain, shutter flicker and negative flashes. Typography is the action: a hydraulic press squashes the layout, every HARD is a die stamp, windows multiply, and each hook pass gets a bigger grid. Strict palette (ink / bone / paper + caution yellow), bilingual KR/EN poster type, six chapters. |
 | [`unloveuKatseye/`](unloveuKatseye) | KATSEYE – *Unloveu* (module 5: **Frosted-Glass / Prismatic Editorial Engine**). Canvas2D only, no footage and no generated media. Backdrop-blurred glass panels hug each lyric line, a rotating glass prism throws spectral beams on the choruses (a notch bigger each pass), the bridge cracks into drifting shards, and a chrome bead necklace lights up in verse II. Palette: night `#0A1230`, ice `#BFE3FF`, bone `#F2EEE6`, lilac `#B9A6FF`, with negative (difference) flashes on chapter cuts. Seven chapters; fonts are self-hosted. |
 | [`firestarterKDA/`](firestarterKDA) | K/DA – *FIRESTARTER* (module 6: **Line Distribution + Karaoke Visualizer**). Canvas2D only, no footage and no generated media. A live HUD tracks each singer's cumulative seconds and share (Miyeon / Soyeon / Sophie Powers / Mimi Webb, colour-coded to Ahri / Akali / Evelynn / Kai'Sa) with a glow pulse on whoever is singing; lyrics fill word by word (karaoke sweep) with Hangul over romanization; the backdrop is reactive neon smoke, a beat grid, CRT scanlines, kick-triggered ember sparks and glitch slices, and the outro shows a **Final Line Distribution** ranking. Palette: obsidian `#08080C`, magenta `#FF0055`, acid `#00FF88`, violet `#9D00FF`, cobalt `#00D4FF`, gold `#FFD700`, ember `#FF5500`. Fonts are self-hosted. |
+| [`expectationsOlivia/`](expectationsOlivia) | Olivia Rodrigo ft. Chappell Roan – *expectations* (module 7: **"The Big Expectations Show" TV Game-Show Engine**). Canvas2D only, no footage and no generated media. A 1970s/80s game-show set (sunburst, bulb marquee, LED scoreboard that scores each singer by sung time) crossed with a Y2K riot-grrrl zine (gold tape stickers on the key words, marker scrawls). Hook words fire reactive buzzers: a pink **STRIKE** X on FAKE JOB / PASSIVE, a gold **DING! SURVEY SAYS** on EXPECTATIONS. The host skits are rendered as analog TV: SMPTE colour bars, static, vertical-hold roll, host chyrons, contestant cards and a survey board; the bridge splits the screen purple / pink. Palette: CRT black `#0F0F14`, Olivia purple `#8A2BE2`/`#5B18A7`, Chappell pink `#FF1493`/`#E6005C`, gold `#FFD700`, cyan `#00F5FF`. Fonts are self-hosted. |
 | [`sawadikaLisa/`](sawadikaLisa) | LISA – *SaWaDiKa*. The original: a neon Bangkok street canyon with temple chedis and a wireframe tuk-tuk. Plays live in the browser (optional in-browser `.webm` recording with `R`); no capture script yet. |
 
 ## Getting started
@@ -128,6 +129,24 @@ node capture.mjs --start 100 --end 110 --out test.mp4   # quick preview clip
 npm run capture                              # full render -> firestarter-kda-code-mv.mp4 (1920x1080, 30 fps, ~15 min)
 ```
 
+### expectationsOlivia ("The Big Expectations Show" engine)
+
+Canvas2D like `goHardMeovv`, same Playwright + FFmpeg capture. Bungee, Rubik Mono One, VT323 and Permanent Marker are self-hosted in `assets/fonts` (OFL). `lyrics.json` has the sung lines (`singers`, word times), plus `skits[]` (host speech turned into chyron / card / survey-board events) and `chapters[]`. Chorus 1 deliberately stops where the skit cuts in; `assumed:true` marks the duet sections with estimated line times.
+
+```bash
+cd expectationsOlivia
+npm install
+npx playwright install chromium
+
+# put your own audio next to package.json as audio.mp3, then:
+python tools/transcribe.py large-v3 en       # words.json
+python tools/retry.py en 253 290 "prompt"    # re-run a clip (used for the duet final chorus)
+python tools/make_lyrics.py                  # rebuilds lyrics.json (curated text + times + skit events)
+npm start                                    # http://localhost:8080/
+node tools/still.mjs 95.8 230 281            # single lossless PNG frames -> tools/stills/
+npm run capture                              # full render -> expectations-code-mv.mp4 (1920x1080, 30 fps)
+```
+
 ### sawadikaLisa
 
 ```bash
@@ -146,6 +165,7 @@ knowMyNameTrueDamage/   scene.js (cue sheet + SHOTS)  typography.js  timing.js  
 goHardMeovv/       scene.js (Canvas2D chapters)  analyzer.js  main.js  capture.mjs  serve.mjs  archive/  tools/
 unloveuKatseye/    scene.js (glass / prism / crack chapters)  analyzer.js  main.js  capture.mjs  serve.mjs  assets/fonts  tools/
 firestarterKDA/    scene.js (HUD / karaoke / outro table)  analyzer.js  main.js  capture.mjs  serve.mjs  fonts.css  assets/fonts  tools/
+expectationsOlivia/  scene.js (game-show set / skit TV graphics / buzzers)  analyzer.js  main.js  capture.mjs  serve.mjs  fonts.css  assets/fonts  tools/
 sawadikaLisa/      scene.js  typography.js  timing.js  analyzer.js  main.js  lyrics.json
 ```
 

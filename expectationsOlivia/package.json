@@ -1,0 +1,10 @@
+{
+  "name": "expectations-olivia-code-mv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Olivia Rodrigo ft. Chappell Roan - expectations: 'The Big Expectations Show' fan-made code lyrics video (1970s/80s TV game show x Y2K zine, Canvas2D)",
+  "scripts": { "start": "node serve.mjs 8080", "capture": "node capture.mjs" },
+  "dependencies": { "playwright": "^1.49.0" },
+  "devDependencies": { "@fontsource/bungee": "^5.0.0", "@fontsource/vt323": "^5.0.0", "@fontsource/permanent-marker": "^5.0.0", "@fontsource/rubik-mono-one": "^5.0.0" }
+}
