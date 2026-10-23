@@ -42,3 +42,7 @@ skills-lock.json
 
 # secrets
 *cookies.txt
+
+# DESERVE member photos (user-supplied, not redistributed)
+deserveBaemon/assets/members/
+deserveBaemon/npm.log

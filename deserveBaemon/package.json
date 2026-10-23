@@ -1,0 +1,9 @@
+{
+  "name": "deserve-babymonster-code-mv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BABYMONSTER - DESERVE: line distribution dashboard + messenger bubble lyrics fan-made code lyrics video (Canvas2D)",
+  "scripts": { "start": "node serve.mjs 8080", "capture": "node capture.mjs" },
+  "dependencies": { "playwright": "^1.49.0" }
+}

@@ -1,0 +1,19 @@
+:root { --ink: #0E0F14; --paper: #F2F2F7; --rora: #A0C4FF; --chiquita: #FFC6FF; --ahyeon: #FFADAD; --pharita: #FDFFB6; --ruka: #CAFFBF; --asa: #9BF6FF; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--ink); color: var(--paper); overflow: hidden; font-family: 'Segoe UI', 'Malgun Gothic', sans-serif; }
+body.playing { cursor: none; }
+#stage { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); display: block; background: var(--ink); width: min(100vw, 177.78vh); height: min(56.25vw, 100vh); }
+#overlay { position: fixed; inset: 0; z-index: 5; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 24px; text-align: center; background: radial-gradient(ellipse at 50% 40%, #232a44 0%, var(--ink) 70%); }
+#overlay.gone { display: none; }
+#overlay h1 { margin: 0; font: 800 clamp(54px, 11vw, 180px)/1 'Segoe UI', sans-serif; letter-spacing: -.02em; background: linear-gradient(90deg, var(--rora), var(--chiquita), var(--ahyeon), var(--pharita), var(--ruka), var(--asa)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.sub { margin: 0; letter-spacing: .22em; text-transform: uppercase; font: 500 13px 'Segoe UI', sans-serif; opacity: .8; }
+#bar { width: min(460px, 70vw); height: 4px; border-radius: 2px; background: rgba(255, 255, 255, .12); }
+#barfill { display: block; height: 100%; width: 0; border-radius: 2px; background: linear-gradient(90deg, var(--rora), var(--chiquita)); }
+#status { margin: 0; font: 400 14px 'Segoe UI', sans-serif; min-height: 1.3em; max-width: 720px; line-height: 1.5; opacity: .8; }
+#start { font: 700 17px 'Segoe UI', sans-serif; letter-spacing: .14em; color: var(--ink); background: var(--chiquita); border: 0; border-radius: 999px; padding: 14px 48px; cursor: pointer; }
+#start:hover { background: var(--paper); }
+.keys { margin: 10px 0 0; font: 400 12px 'Segoe UI', sans-serif; opacity: .55; max-width: 680px; line-height: 1.7; }
+#hud { position: fixed; left: 0; right: 0; bottom: 0; height: 3px; z-index: 3; background: rgba(0, 0, 0, .35); }
+#hudfill { display: block; height: 100%; width: 0; background: var(--chiquita); }
+#debug { position: fixed; top: 10px; left: 10px; margin: 0; padding: 10px 12px; z-index: 4; font: 12px/1.45 Consolas, monospace; background: rgba(14, 15, 20, .92); border: 1px solid var(--chiquita); max-width: 46vw; white-space: pre-wrap; }
+#toast { position: fixed; left: 50%; bottom: 7%; transform: translateX(-50%); z-index: 7; padding: 8px 16px; font: 400 14px 'Segoe UI', sans-serif; background: var(--ink); border: 1px solid var(--chiquita); border-radius: 999px; opacity: 0; transition: opacity .3s; pointer-events: none; }
