@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LISA // Tarantino (code)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="stage" width="1920" height="1080"></canvas>
+
+  <div id="overlay">
+    <h1>TARANTINO</h1>
+    <p class="sub">LISA &middot; 1970s grindhouse pulp cinema &middot; 2.39:1 &middot; fan-made &middot; all code</p>
+    <div id="bar"><i id="barfill"></i></div>
+    <p id="status">loading audio&hellip;</p>
+    <button id="start" hidden>&#9654; PLAY FULLSCREEN</button>
+    <p class="keys">Space pause &middot; &larr;/&rarr; 5s &middot; F fullscreen &middot; , . lyric offset &plusmn;0.1s &middot; / reset &middot; D debug</p>
+  </div>
+
+  <div id="hud" hidden><i id="hudfill"></i></div>
+  <pre id="debug" hidden></pre>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

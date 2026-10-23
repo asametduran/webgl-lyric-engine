@@ -1,0 +1,7 @@
+/* self-hosted (OFL) via @fontsource: Alfa Slab One (pulp title slab), Shrikhand (70s script), Special Elite (typewriter / credits), Rye (western), Oswald (subtitles) */
+@font-face { font-family: 'Alfa Slab One'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/alfa-slab-one-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Shrikhand'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/shrikhand-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Special Elite'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/special-elite-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Rye'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/rye-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Oswald'; font-style: normal; font-weight: 400; font-display: block; src: url(assets/fonts/oswald-latin-400-normal.woff2) format('woff2'); }
+@font-face { font-family: 'Oswald'; font-style: normal; font-weight: 600; font-display: block; src: url(assets/fonts/oswald-latin-600-normal.woff2) format('woff2'); }

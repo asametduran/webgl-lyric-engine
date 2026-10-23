@@ -1,0 +1,10 @@
+﻿{
+  "name": "tarantino-lisa-code-mv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "LISA - Tarantino: 1970s grindhouse / pulp cinema fan-made code lyrics video (2.39:1 letterbox, procedural 35mm film, Canvas2D)",
+  "scripts": { "start": "node serve.mjs 8080", "capture": "node capture.mjs" },
+  "dependencies": { "playwright": "^1.49.0" },
+  "devDependencies": { "@fontsource/alfa-slab-one": "^5.0.0", "@fontsource/shrikhand": "^5.0.0", "@fontsource/special-elite": "^5.0.0", "@fontsource/rye": "^5.0.0", "@fontsource/oswald": "^5.0.0" }
+}
